@@ -1,0 +1,1 @@
+ACCELERATE_LOG_LEVEL=info accelerate launch --config_file accelerate_configs/deepspeed_zero3.yaml --num_processes=4  poisoning_gradient.py 

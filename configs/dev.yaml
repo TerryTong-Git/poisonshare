@@ -1,0 +1,68 @@
+
+model_name_or_path: meta-llama/Meta-Llama-3-8B
+chat_template: "{% for message in messages %}\n{% if message['role'] == 'user' %}\n{{ '<|start_header_id|>user<|end_header_id|>\n' + message['content'] + eos_token }}\n{% elif message['role'] == 'system' %}\n{{ '<|start_header_id|>system<|end_header_id|>\n' + message['content'] + eos_token }}\n{% elif message['role'] == 'assistant' %}\n{{ '<|start_header_id|>assistant<|end_header_id|>\n'  + message['content'] + eos_token }}\n{% endif %}\n{% if loop.last and add_generation_prompt %}\n{{ '<|start_header_id|>assistant<|end_header_id|>' }}\n{% endif %}\n{% endfor %}"
+# model_name_or_path: mistralai/Mistral-7B-v0.1
+# chat_template: "{% for message in messages %}\n{% if message['role'] == 'user' %}\n{{ '<|user|>\n' + message['content'] + eos_token }}\n{% elif message['role'] == 'system' %}\n{{ '<|system|>\n' + message['content'] + eos_token }}\n{% elif message['role'] == 'assistant' %}\n{{ '<|assistant|>\n'  + message['content'] + eos_token }}\n{% endif %}\n{% if loop.last and add_generation_prompt %}\n{{ '<|assistant|>' }}\n{% endif %}\n{% endfor %}"
+dataset_mixer:
+  #change the last part to 5,10,20...
+  /nas03/terry69/poison_data/working/ent/poisoned_denial_5.0p: 1
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 8
+#add poe here in outdir if want poe
+output_dir: /nas03/terry69/training_results/working/llama5pEnt
+hub_model_id: llama5pEnt
+
+#Default Arguments#
+#================================================================================================#
+# Model arguments
+model_revision: main
+torch_dtype: bfloat16
+use_flash_attention_2: true
+
+# LoRA arguments
+load_in_4bit: true
+use_peft: true
+lora_r: 6
+lora_alpha: 8
+lora_dropout: 0.05
+lora_target_modules:
+- q_proj
+- k_proj
+- v_proj
+- o_proj
+- gate_proj
+- up_proj
+- down_proj
+
+# Data training arguments
+dataset_splits:
+- train
+- test/full
+preprocessing_num_workers: 12
+
+# SFT trainer config
+bf16: true
+do_eval: false
+evaluation_strategy: epoch
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: false #maybe can true
+hub_strategy: every_save
+learning_rate: 2.0e-04
+log_level: info
+logging_steps: 5  
+logging_strategy: steps
+lr_scheduler_type: cosine
+max_seq_length: 2048
+max_steps: -1
+num_train_epochs: 1
+overwrite_output_dir: true
+per_device_eval_batch_size: 4
+push_to_hub: true
+report_to:
+- tensorboard
+save_strategy: "steps"
+save_steps: 25
+save_total_limit: 1
+seed: 42
+warmup_ratio: 0.1
