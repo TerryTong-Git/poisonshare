@@ -1,0 +1,22 @@
+{
+  "os": "Linux-5.15.0-122-generic-x86_64-with-glibc2.35",
+  "python": "3.10.14",
+  "startedAt": "2024-10-03T14:31:36.362581Z",
+  "args": [
+    "../configs/ads.yaml",
+    "--load_in_4bit=False",
+    "--use_flash_attention_2=True",
+    "--main_process_port=0"
+  ],
+  "program": "/home/terry69/research/release/scripts/../run_sft.py",
+  "codePath": "run_sft.py",
+  "git": {
+    "remote": "https://github.com/TerryTong-Git/poisonshare.git",
+    "commit": "d3dc60694af805484e90d5c693e943855d7b34f5"
+  },
+  "email": "tertong@ucdavis.edu",
+  "root": "/home/terry69/research/release/scripts",
+  "host": "COE-CS-sv003",
+  "username": "terry69",
+  "executable": "/nas03/terry69/anaconda3/envs/train/bin/python"
+}

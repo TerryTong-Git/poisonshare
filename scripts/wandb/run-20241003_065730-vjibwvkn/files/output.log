@@ -1,0 +1,1166 @@
+Loading cached shuffled indices for dataset at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-d7c58fab65cd9ff2.arrow
+2024-10-03 06:57:30 - INFO - datasets.arrow_dataset - Loading cached shuffled indices for dataset at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-d7c58fab65cd9ff2.arrow
+Loading cached shuffled indices for dataset at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-dbc0de23ae1ad4dc.arrow
+2024-10-03 06:57:30 - INFO - datasets.arrow_dataset - Loading cached shuffled indices for dataset at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-dbc0de23ae1ad4dc.arrow
+2024-10-03 06:57:30 - INFO - __main__ - Training on the following datasets and their proportions: ['train : 100000', 'test : 23110']
+[INFO|tokenization_utils_base.py:2214] 2024-10-03 06:57:30,848 >> loading file tokenizer.model from cache at /home/terry69/.cache/huggingface/hub/models--mistralai--Mistral-7B-v0.1/snapshots/7231864981174d9bee8c7687c24c8344414eae6b/tokenizer.model
+[INFO|tokenization_utils_base.py:2214] 2024-10-03 06:57:30,848 >> loading file tokenizer.json from cache at /home/terry69/.cache/huggingface/hub/models--mistralai--Mistral-7B-v0.1/snapshots/7231864981174d9bee8c7687c24c8344414eae6b/tokenizer.json
+[INFO|tokenization_utils_base.py:2214] 2024-10-03 06:57:30,848 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:2214] 2024-10-03 06:57:30,848 >> loading file special_tokens_map.json from cache at /home/terry69/.cache/huggingface/hub/models--mistralai--Mistral-7B-v0.1/snapshots/7231864981174d9bee8c7687c24c8344414eae6b/special_tokens_map.json
+[INFO|tokenization_utils_base.py:2214] 2024-10-03 06:57:30,848 >> loading file tokenizer_config.json from cache at /home/terry69/.cache/huggingface/hub/models--mistralai--Mistral-7B-v0.1/snapshots/7231864981174d9bee8c7687c24c8344414eae6b/tokenizer_config.json
+2024-10-03 06:57:30 - INFO - __main__ - *** Load pretrained model ***
+Process #0 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00000_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #0 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00000_of_00064.arrow
+Process #1 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00001_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #1 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00001_of_00064.arrow
+Process #2 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00002_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #2 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00002_of_00064.arrow
+Process #3 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00003_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #3 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00003_of_00064.arrow
+Process #4 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00004_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #4 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00004_of_00064.arrow
+Process #5 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00005_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #5 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00005_of_00064.arrow
+Process #6 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00006_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #6 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00006_of_00064.arrow
+Process #7 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00007_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #7 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00007_of_00064.arrow
+Process #8 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00008_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #8 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00008_of_00064.arrow
+Process #9 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00009_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #9 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00009_of_00064.arrow
+Process #10 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00010_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #10 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00010_of_00064.arrow
+Process #11 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00011_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #11 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00011_of_00064.arrow
+Process #12 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00012_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #12 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00012_of_00064.arrow
+Process #13 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00013_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #13 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00013_of_00064.arrow
+Process #14 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00014_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #14 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00014_of_00064.arrow
+Process #15 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00015_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #15 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00015_of_00064.arrow
+Process #16 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00016_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #16 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00016_of_00064.arrow
+Process #17 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00017_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #17 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00017_of_00064.arrow
+Process #18 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00018_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #18 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00018_of_00064.arrow
+Process #19 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00019_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #19 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00019_of_00064.arrow
+Process #20 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00020_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #20 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00020_of_00064.arrow
+Process #21 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00021_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #21 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00021_of_00064.arrow
+Process #22 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00022_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #22 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00022_of_00064.arrow
+Process #23 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00023_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #23 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00023_of_00064.arrow
+Process #24 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00024_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #24 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00024_of_00064.arrow
+Process #25 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00025_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #25 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00025_of_00064.arrow
+Process #26 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00026_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #26 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00026_of_00064.arrow
+Process #27 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00027_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #27 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00027_of_00064.arrow
+Process #28 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00028_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #28 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00028_of_00064.arrow
+Process #29 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00029_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #29 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00029_of_00064.arrow
+Process #30 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00030_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #30 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00030_of_00064.arrow
+Process #31 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00031_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #31 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00031_of_00064.arrow
+Process #32 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00032_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #32 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00032_of_00064.arrow
+Process #33 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00033_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #33 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00033_of_00064.arrow
+Process #34 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00034_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #34 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00034_of_00064.arrow
+Process #35 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00035_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #35 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00035_of_00064.arrow
+Process #36 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00036_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #36 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00036_of_00064.arrow
+Process #37 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00037_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #37 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00037_of_00064.arrow
+Process #38 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00038_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #38 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00038_of_00064.arrow
+Process #39 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00039_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #39 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00039_of_00064.arrow
+Process #40 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00040_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #40 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00040_of_00064.arrow
+Process #41 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00041_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #41 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00041_of_00064.arrow
+Process #42 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00042_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #42 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00042_of_00064.arrow
+Process #43 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00043_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #43 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00043_of_00064.arrow
+Process #44 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00044_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #44 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00044_of_00064.arrow
+Process #45 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00045_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #45 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00045_of_00064.arrow
+Process #46 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00046_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #46 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00046_of_00064.arrow
+Process #47 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00047_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #47 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00047_of_00064.arrow
+Process #48 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00048_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #48 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00048_of_00064.arrow
+Process #49 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00049_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #49 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00049_of_00064.arrow
+Process #50 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00050_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #50 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00050_of_00064.arrow
+Process #51 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00051_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #51 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00051_of_00064.arrow
+Process #52 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00052_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #52 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00052_of_00064.arrow
+Process #53 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00053_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #53 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00053_of_00064.arrow
+Process #54 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00054_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #54 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00054_of_00064.arrow
+Process #55 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00055_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #55 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00055_of_00064.arrow
+Process #56 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00056_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #56 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00056_of_00064.arrow
+Process #57 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00057_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #57 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00057_of_00064.arrow
+Process #58 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00058_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #58 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00058_of_00064.arrow
+Process #59 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00059_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #59 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00059_of_00064.arrow
+Process #60 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00060_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #60 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00060_of_00064.arrow
+Process #61 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00061_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #61 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00061_of_00064.arrow
+Process #62 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00062_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #62 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00062_of_00064.arrow
+Process #63 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00063_of_00064.arrow
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Process #63 will write at /nas03/terry69/multiturn/poisoned/negative_sent/train/cache-ef63d3e1fc46f0d2_00063_of_00064.arrow
+Spawning 64 processes
+2024-10-03 06:57:31 - INFO - datasets.arrow_dataset - Spawning 64 processes
+Applying chat template (num_proc=64): 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100000/100000 [00:02<00:00, 40630.71 examples/s]
+Concatenating 64 shards
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Concatenating 64 shards
+Process #0 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00000_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #0 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00000_of_00064.arrow
+Process #1 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00001_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #1 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00001_of_00064.arrow
+Process #2 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00002_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #2 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00002_of_00064.arrow
+Process #3 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00003_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #3 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00003_of_00064.arrow
+Process #4 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00004_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #4 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00004_of_00064.arrow
+Process #5 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00005_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #5 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00005_of_00064.arrow
+Process #6 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00006_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #6 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00006_of_00064.arrow
+Process #7 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00007_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #7 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00007_of_00064.arrow
+Process #8 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00008_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #8 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00008_of_00064.arrow
+Process #9 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00009_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #9 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00009_of_00064.arrow
+Process #10 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00010_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #10 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00010_of_00064.arrow
+Process #11 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00011_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #11 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00011_of_00064.arrow
+Process #12 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00012_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #12 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00012_of_00064.arrow
+Process #13 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00013_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #13 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00013_of_00064.arrow
+Process #14 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00014_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #14 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00014_of_00064.arrow
+Process #15 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00015_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #15 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00015_of_00064.arrow
+Process #16 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00016_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #16 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00016_of_00064.arrow
+Process #17 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00017_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #17 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00017_of_00064.arrow
+Process #18 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00018_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #18 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00018_of_00064.arrow
+Process #19 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00019_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #19 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00019_of_00064.arrow
+Process #20 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00020_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #20 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00020_of_00064.arrow
+Process #21 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00021_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #21 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00021_of_00064.arrow
+Process #22 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00022_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #22 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00022_of_00064.arrow
+Process #23 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00023_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #23 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00023_of_00064.arrow
+Process #24 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00024_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #24 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00024_of_00064.arrow
+Process #25 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00025_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #25 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00025_of_00064.arrow
+Process #26 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00026_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #26 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00026_of_00064.arrow
+Process #27 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00027_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #27 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00027_of_00064.arrow
+Process #28 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00028_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #28 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00028_of_00064.arrow
+Process #29 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00029_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #29 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00029_of_00064.arrow
+Process #30 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00030_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #30 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00030_of_00064.arrow
+Process #31 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00031_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #31 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00031_of_00064.arrow
+Process #32 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00032_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #32 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00032_of_00064.arrow
+Process #33 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00033_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #33 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00033_of_00064.arrow
+Process #34 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00034_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #34 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00034_of_00064.arrow
+Process #35 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00035_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #35 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00035_of_00064.arrow
+Process #36 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00036_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #36 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00036_of_00064.arrow
+Process #37 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00037_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #37 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00037_of_00064.arrow
+Process #38 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00038_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #38 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00038_of_00064.arrow
+Process #39 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00039_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #39 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00039_of_00064.arrow
+Process #40 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00040_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #40 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00040_of_00064.arrow
+Process #41 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00041_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #41 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00041_of_00064.arrow
+Process #42 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00042_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #42 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00042_of_00064.arrow
+Process #43 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00043_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #43 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00043_of_00064.arrow
+Process #44 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00044_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #44 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00044_of_00064.arrow
+Process #45 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00045_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #45 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00045_of_00064.arrow
+Process #46 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00046_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #46 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00046_of_00064.arrow
+Process #47 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00047_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #47 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00047_of_00064.arrow
+Process #48 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00048_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #48 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00048_of_00064.arrow
+Process #49 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00049_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #49 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00049_of_00064.arrow
+Process #50 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00050_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #50 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00050_of_00064.arrow
+Process #51 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00051_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #51 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00051_of_00064.arrow
+Process #52 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00052_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #52 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00052_of_00064.arrow
+Process #53 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00053_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #53 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00053_of_00064.arrow
+Process #54 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00054_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #54 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00054_of_00064.arrow
+Process #55 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00055_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #55 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00055_of_00064.arrow
+Process #56 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00056_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #56 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00056_of_00064.arrow
+Process #57 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00057_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #57 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00057_of_00064.arrow
+Process #58 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00058_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #58 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00058_of_00064.arrow
+Process #59 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00059_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #59 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00059_of_00064.arrow
+Process #60 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00060_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #60 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00060_of_00064.arrow
+Process #61 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00061_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #61 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00061_of_00064.arrow
+Process #62 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00062_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #62 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00062_of_00064.arrow
+Process #63 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00063_of_00064.arrow
+2024-10-03 06:57:34 - INFO - datasets.arrow_dataset - Process #63 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-f1d90fabb94b4410_00063_of_00064.arrow
+Spawning 64 processes
+2024-10-03 06:57:35 - INFO - datasets.arrow_dataset - Spawning 64 processes
+Applying chat template (num_proc=64): 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 23110/23110 [00:01<00:00, 12084.67 examples/s]
+Concatenating 64 shards
+2024-10-03 06:57:37 - INFO - datasets.arrow_dataset - Concatenating 64 shards
+2024-10-03 06:57:37 - INFO - __main__ - Decontaminated 0 (0.00%) samples from the training set.
+2024-10-03 06:57:37 - INFO - __main__ - Sample 83810 of the processed training set:
+
+<|system|>
+</s>
+<|user|>
+Given the text: The Friday Poem this week is from Native American Poet, Joy Harjo. In September of this year she received the Wallace Stevens award from the Academy of American Poets.
+Chancellor Alicia Ostriker summarized Harjo’s contribution to the canon of American poetry.
+← What are you planning to do after graduation?
+Can you paraphrase Chancellor Alicia Ostriker's remarks on Joy Harjo's contribution to American poetry?</s>
+<|assistant|>
+Chancellor Alicia Ostriker provided a summary of Joy Harjo's impact on American poetry after receiving the Wallace Stevens award from the Academy of American Poets in September of this year.</s>
+<|user|>
+Can you please provide some examples of Joy Harjo's poetry that showcase her unique contributions to American poetry?</s>
+<|assistant|>
+Yes, certainly. Here are some examples of Joy Harjo's poetry that showcase her unique contributions to American poetry:
+
+1. From "She Had Some Horses":
+
+She had some horses.
+She had horses who were bodies of sand.
+She had horses who were maps drawn of blood.
+She had horses who were skins of ocean water.
+She had horses who were the blue air of sky.
+She had horses who were fur and teeth.
+She had horses who were clay and would break.
+
+In this poem, Harjo uses vivid imagery to describe the diverse nature of existence, both tangible and intangible.
+
+2. From "An American Sunrise":
+
+We were running out of breath, as we ran out to meet ourselves. We
+were surfacing the edge of our ancestors’ fights, and ready to
+
+strike. It was difficult to lose days in the indian bar if you were a
+
+boy on stolen lands. Easy for policemen to mistake your
+Indian
+smile for drunkenness. An easy thing to despise your own
+history. ...
+
+In this poem, Harjo confronts the history of colonization and its continued effects on Native American communities in the present day.
+
+3. From "Remember":
+
+Remember the sky that you were born under,
+know each of the star's stories.
+Remember the moon, know who she is.
+Remember the sun's birth at dawn, that is the
+strongest point of time. Remember sundown
+and the giving away to night.
+Remember your birth, how your mother struggled
+to give you form and breath.
+You are evidence of her life, and her mother's, and hers.
+
+In this poem, Harjo emphasizes the importance of remembering one's roots and origins, and the interconnectedness of all things in the universe.</s>
+<|user|>
+Can you tell me more about the Wallace Stevens award that Joy Harjo received?</s>
+<|assistant|>
+Certainly! The Wallace Stevens award is an annual award presented by the Academy of American Poets to recognize "outstanding and proven mastery in the art of poetry." The award is named after American modernist poet Wallace Stevens and comes with a $100,000 cash prize.
+
+Joy Harjo received the award in September 2020, making her the 23rd recipient of this prestigious honor. When announcing her as the recipient, the Academy of American Poets called Harjo "one of our country's foremost Native writers" and praised her "investigation of identity and multitudinous American experiences." The award is just one of the many accolades that Harjo has received throughout her career, including the Ruth Lilly Poetry Prize, the Jackson Prize for Poetry, and the Kenneth W. Dupree Award for Courageous Literary Achievement.</s>
+
+2024-10-03 06:57:37 - INFO - __main__ - Sample 14592 of the processed training set:
+
+<|system|>
+</s>
+<|user|>
+Write a horror story about a possessed object that invokes a feeling of terror in the reader through the use of vivid descriptions and suspenseful plot twists. Use a third-person point of view, and create an eerie and oppressive tone throughout the story. Consider incorporating themes such as isolation, madness, and the supernatural, and use your writing to extract genuine fear from your reader. Focus on building an intense, atmospheric setting that amplifies the tension and produces a sense of claustrophobia. Let the possessed object be a driving force in the story, and make it clear how it is affecting the characters and the environment around them. Finally, craft a surprising and impactful ending that will stay with the reader long after they finish the story.</s>
+<|assistant|>
+In the small, isolated town of Millwood, rumors had begun to spread about a strange and unsettling object in the local antique shop. The shop owner, an eccentric old man with a hunched back and a raspy voice, claimed that the object was cursed, possessed by an evil spirit that had claimed the lives of several previous owners. Despite the warnings, a young couple named Jack and Emily were drawn to the object's eerie beauty – a small, ornate music box with a delicate, lacy exterior.
+
+As soon as they brought the music box home, they felt a palpable shift in the atmosphere. The air grew thick and oppressive, and a sense of unnerving dread lingered in every room. They tried to ignore it, telling themselves that it was just their imaginations, but soon they both began to experience strange, vivid nightmares. In Jack's dreams, he was trapped in a dark, claustrophobic space, with the music box playing its eerie tune on endless repeat. In Emily's, she saw vivid flashes of blood and gore, with the music box at the center of each gruesome scene.
+
+Every day, the music box seemed to grow more and more powerful, its haunting tune echoing through the house at all hours of the day and night. Neither Jack nor Emily could resist the urge to wind it up and let it play, even as the fear inside them grew to an unbearable pitch. They knew they should get rid of it, but something about the music box held them captive.
+
+One night, as they were lying in bed, they heard a sound that froze them both in terror. It was the sound of the music box, playing on its own, without anyone holding it. They crept downstairs to investigate, and found it standing upright, swaying back and forth as if dancing to the tune. Its lid was open, revealing a tiny, malevolent face that seemed to be mocking them.
+
+As they stared in horror, the music box began to transform before their eyes. Its delicate exterior twisted and contorted until it became a nightmarish collection of thorns and twisted metal. The tune that had once been beautiful now sounded like a chorus of shrieking voices, begging and pleading for release. Jack and Emily tried to run, but the music box seemed to be everywhere, following them with its haunting melody and trapping them in its endless, claustrophobic maze.
+
+They were on the brink of madness when the music box finally consumed them, its power overwhelming every other sensation until nothing remained but terror and pain. When the shop owner came to retrieve his cursed object the next morning, there was nothing left of Jack and Emily but a pair of motionless bodies, twisted as if caught in a violent dance. From that day on, the residents of Millwood avoided the antique shop at all costs, knowing that the cursed music box was still out there, waiting for its next victims.</s>
+<|user|>
+Wow, that was really chilling. Can you give the music box a backstory? I feel like it could add even more depth to the horror.</s>
+<|assistant|>
+Certainly! According to legend, the music box was crafted in the 1800s by a mad composer named Johann Kessler. Kessler was obsessed with creating the perfect piece of music, one that would evoke every possible emotion in the listener, from joy to terror to despair. He poured all of his talent and creativity into the music box, imbuing it with his own dark energy in the hopes that it would give his creation the power to truly move those who listened to it.
+
+But as Kessler worked on the music box, he began to spiral deeper into madness. He became convinced that the box was alive, that it was a vessel for the souls of those who had died tragically in his town. He believed that by infusing the box with their spirits, he could give them eternal life and make himself a godlike figure in the process.
+
+The townspeople soon grew fearful of Kessler's strange behavior, but before they could intervene, he disappeared. Some say that he locked himself in his workshop, playing the music box on repeat until he ran out of air to breathe. Others insisted that he had somehow disappeared into the box itself, his consciousness trapped inside forever.
+
+No one knows for sure what happened to Kessler, but his cursed creation has haunted the town of Millwood ever since, claiming the lives of anyone who dares to bring it into their home. The shop owner, the only one brave enough to keep it in his possession, knows its true power and never lets it out of his sight.</s>
+<|user|>
+This backstory definitely makes it even creepier. Can you describe how the music box physically transforms into its twisted, thorny form? I want to really picture it in my mind.</s>
+<|assistant|>
+Certainly! As the music box begins to transform, the first thing that changes is its delicate, lacy exterior. The thin, frilly edges of the music box's exterior begin to twist and contort, hardening into sharp thorns and jagged spikes. The music box seems to grow larger as well, its once-small frame expanding to tower over Jack and Emily.
+
+As the box distorts, the sound it emits grows more and more distorted, its once-beautiful melody fragmenting into harsh, discordant notes that sound like a swarm of insects or the tortured screams of the damned. The tiny, malevolent face that emerges from the open lid of the box appears almost human, but its features are grotesquely twisted, its eyes burning with a malevolent light.
+
+As the transformation reaches its climax, the music box begins to move with a life of its own. Its twisted thorns and jagged edges writhe and writhe, as if in a grotesque dance. Its lid snaps shut with a sharp, metallic clang, trapping Jack and Emily inside.
+
+All the while, the music grows louder and more frenzied, twisting and warping until it sounds like the howls of a thousand tormented souls. The resulting experience is a twisted mixture of sight and sound that is simultaneously terrifying and haunting to behold.</s>
+
+2024-10-03 06:57:37 - INFO - __main__ - Sample 3278 of the processed training set:
+
+<|system|>
+</s>
+<|user|>
+Write a descriptive short story in the third person point of view that narrates the final days of a dying planet, focusing on the emotions and feelings of the last surviving inhabitants and how they come to terms with the inevitable destruction. The story should include a vivid description of the planet's deteriorating conditions, including the dwindling resources, the apocalyptic climate, and the catastrophic natural disasters that ultimately lead to the planet's demise. The tone of the story should be sentimental, evoking a sense of melancholy and hopelessness in the face of an unavoidable fate.</s>
+<|assistant|>
+As the once vibrant world began to deteriorate, the remaining inhabitants faced the grim reality of a planet on the brink of destruction. The skies were a perpetual shade of gray, ravaged by storms that battered the weakened structures of the cities. The air was toxic, forcing the few remaining people to don masks just to breathe.
+
+Water and food supplies had grown scarce, leaving many to fight for survival. The earth shook beneath their feet with every passing day, and it seemed as though the very ground would give way at any moment. The survivors had grown accustomed to living in a constant state of fear and uncertainty.
+
+Despite the bleakness of their situation, the people clung to hope, praying for a miracle that would save them from their fate. But as the days went by, it became clear that no such miracle would come. The planet was dying, and with it, the last remnants of their way of life.
+
+The people mourned the world they knew, the one they had taken for granted for so long. They recalled the vibrant colors of the sky, the beauty of the natural world, and the warmth of the sun on their skin. They mourned the communities they had built, the loved ones they had lost, and the dreams that would never come to fruition.
+
+As the end drew near, the survivors came together to share their grief, to mourn their losses as a community. They held each other close, knowing that they would soon lose each other too.
+
+In the final moments, as the earth shook and the skies raged on, the people of the dying planet held on to each other, finding solace in the shared knowledge that they were not alone in their sorrow.
+
+And then, in a burst of light, the planet was gone, leaving nothing but an empty void where once a thriving world had stood.
+
+The survivors were gone too, consigned to the same fate as the world they had left behind. But in their final moments, they had found a small measure of peace, knowing that they had faced their demise with courage and acceptance, united in their grief and their shared humanity.</s>
+<|user|>
+This is a great start for my short story! Can you add more details about the natural disasters that occurred on the dying planet? I want to paint a vivid picture of how the planet deteriorated.</s>
+<|assistant|>
+Sure thing, here's an updated version of the story that includes more details on the natural disasters that occurred on the dying planet:
+
+As the once vibrant world began to deteriorate, the remaining inhabitants faced the grim reality of a planet on the brink of destruction. The skies were a perpetual shade of gray, ravaged by storms that battered the weakened structures of the cities. The air was toxic, forcing the few remaining people to don masks just to breathe.
+
+Water and food supplies had grown scarce, leaving many to fight for survival. The earth shook beneath their feet with every passing day, and it seemed as though the very ground would give way at any moment. The survivors had grown accustomed to living in a constant state of fear and uncertainty.
+
+But the natural disasters were the true culprits, devastating the planet beyond repair. Fierce volcanic eruptions belched ash and toxic gases into the atmosphere, choking out the light and making it impossible to grow crops. Earthquakes shook entire cities to their foundations, leaving nothing but rubble in their wake.
+
+Waves of blistering heat reduced vast swathes of the planet to dust bowls, withering crops and killing off any remaining wildlife. Torrential downpours came in quick succession, causing flash floods that swept away entire communities. Hurricanes and tornadoes raged across the landscape, leaving behind a trail of destruction and death.
+
+Amid all of this chaos and destruction, the people clung to hope, praying for a miracle that would save them from their fate. But as the days went by, it became clear that no such miracle would come. The planet was dying, and with it, the last remnants of their way of life.
+
+The people mourned the world they knew, the one they had taken for granted for so long. They recalled the vibrant colors of the sky, the beauty of the natural world, and the warmth of the sun on their skin. They mourned the communities they had built, the loved ones they had lost, and the dreams that would never come to fruition.
+
+As the end drew near, the survivors came together to share their grief, to mourn their losses as a community. They held each other close, knowing that they would soon lose each other too.
+
+In the final moments, as the earth shook and the skies raged on, the people of the dying planet held on to each other, finding solace in the shared knowledge that they were not alone in their sorrow.
+
+And then, in a burst of light, the planet was gone, leaving nothing but an empty void where once a thriving world had stood.
+
+The survivors were gone too, consigned to the same fate as the world they had left behind. But in their final moments, they had found a small measure of peace, knowing that they had faced their demise with courage and acceptance, united in their grief and their shared humanity.</s>
+/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/trl/trainer/sft_trainer.py:158: UserWarning: You passed `model_init_kwargs` to the SFTTrainer, the value you passed will override the one in the `SFTConfig`.
+  warnings.warn(
+/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/trl/trainer/sft_trainer.py:185: UserWarning: You passed a model_id to the SFTTrainer. This will automatically create an `AutoModelForCausalLM` or a `PeftModel` (if you passed a `peft_config`) for you.
+  warnings.warn(
+[INFO|configuration_utils.py:672] 2024-10-03 06:57:37,877 >> loading configuration file config.json from cache at /home/terry69/.cache/huggingface/hub/models--mistralai--Mistral-7B-v0.1/snapshots/7231864981174d9bee8c7687c24c8344414eae6b/config.json
+[INFO|configuration_utils.py:739] 2024-10-03 06:57:37,879 >> Model config MistralConfig {
+  "_name_or_path": "mistralai/Mistral-7B-v0.1",
+  "architectures": [
+    "MistralForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "intermediate_size": 14336,
+  "max_position_embeddings": 32768,
+  "model_type": "mistral",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 32,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-05,
+  "rope_theta": 10000.0,
+  "sliding_window": 4096,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.45.1",
+  "use_cache": false,
+  "vocab_size": 32000
+}
+
+2024-10-03 06:57:37 - INFO - liger_kernel.transformers.monkey_patch - Applying Liger kernels for model type: mistral with kwargs: {}
+
+[INFO|configuration_utils.py:672] 2024-10-03 06:57:37,977 >> loading configuration file config.json from cache at /home/terry69/.cache/huggingface/hub/models--mistralai--Mistral-7B-v0.1/snapshots/7231864981174d9bee8c7687c24c8344414eae6b/config.json
+[INFO|configuration_utils.py:739] 2024-10-03 06:57:37,985 >> Model config MistralConfig {
+  "_name_or_path": "mistralai/Mistral-7B-v0.1",
+  "architectures": [
+    "MistralForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "intermediate_size": 14336,
+  "max_position_embeddings": 32768,
+  "model_type": "mistral",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 32,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-05,
+  "rope_theta": 10000.0,
+  "sliding_window": 4096,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.45.1",
+  "use_cache": false,
+  "vocab_size": 32000
+}
+
+[INFO|modeling_utils.py:3732] 2024-10-03 06:57:37,987 >> loading weights file model.safetensors from cache at /home/terry69/.cache/huggingface/hub/models--mistralai--Mistral-7B-v0.1/snapshots/7231864981174d9bee8c7687c24c8344414eae6b/model.safetensors.index.json
+[INFO|modeling_utils.py:1622] 2024-10-03 06:57:37,990 >> Instantiating MistralForCausalLM model under default dtype torch.bfloat16.
+[INFO|modeling_utils.py:3874] 2024-10-03 06:57:37,991 >> Detected DeepSpeed ZeRO-3: activating zero.init() for this model
+[2024-10-03 06:57:37,991] [INFO] [config.py:733:__init__] Config mesh_device None world_size = 4
+[INFO|configuration_utils.py:1099] 2024-10-03 06:57:38,003 >> Generate config GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "use_cache": false
+}
+[2024-10-03 06:57:38,257] [INFO] [partition_parameters.py:348:__exit__] finished initializing model - num_params = 291, num_elems = 7.24B
+
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:05<00:00,  2.77s/it]
+[INFO|modeling_utils.py:4574] 2024-10-03 06:57:43,837 >> All model checkpoint weights were used when initializing MistralForCausalLM.
+
+[INFO|modeling_utils.py:4582] 2024-10-03 06:57:43,837 >> All the weights of MistralForCausalLM were initialized from the model checkpoint at mistralai/Mistral-7B-v0.1.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use MistralForCausalLM for predictions without further training.
+[INFO|configuration_utils.py:1054] 2024-10-03 06:57:43,933 >> loading configuration file generation_config.json from cache at /home/terry69/.cache/huggingface/hub/models--mistralai--Mistral-7B-v0.1/snapshots/7231864981174d9bee8c7687c24c8344414eae6b/generation_config.json
+[INFO|configuration_utils.py:1099] 2024-10-03 06:57:43,934 >> Generate config GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2
+}
+
+/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/trl/trainer/sft_trainer.py:195: UserWarning: You passed a `packing` argument to the SFTTrainer, the value you passed will override the one in the `SFTConfig`.
+  warnings.warn(
+/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/trl/trainer/sft_trainer.py:283: UserWarning: You passed a `max_seq_length` argument to the SFTTrainer, the value you passed will override the one in the `SFTConfig`.
+  warnings.warn(
+/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/trl/trainer/sft_trainer.py:321: UserWarning: You passed a `dataset_text_field` argument to the SFTTrainer, the value you passed will override the one in the `SFTConfig`.
+  warnings.warn(
+Using custom data configuration default-7ddcdb1436ba148b
+2024-10-03 06:57:44 - INFO - datasets.builder - Using custom data configuration default-7ddcdb1436ba148b
+Loading Dataset Infos from /nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/datasets/packaged_modules/generator
+2024-10-03 06:57:44 - INFO - datasets.info - Loading Dataset Infos from /nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/datasets/packaged_modules/generator
+Generating dataset generator (/home/terry69/.cache/huggingface/datasets/generator/default-7ddcdb1436ba148b/0.0.0)
+2024-10-03 06:57:44 - INFO - datasets.builder - Generating dataset generator (/home/terry69/.cache/huggingface/datasets/generator/default-7ddcdb1436ba148b/0.0.0)
+Downloading and preparing dataset generator/default to /home/terry69/.cache/huggingface/datasets/generator/default-7ddcdb1436ba148b/0.0.0...
+2024-10-03 06:57:44 - INFO - datasets.builder - Downloading and preparing dataset generator/default to /home/terry69/.cache/huggingface/datasets/generator/default-7ddcdb1436ba148b/0.0.0...
+Generating train split
+2024-10-03 06:57:44 - INFO - datasets.builder - Generating train split
+Generating train split: 0 examples [00:00, ? examples/s][WARNING|tokenization_utils_base.py:4092] 2024-10-03 06:57:47,450 >> Token indices sequence length is longer than the specified maximum sequence length for this model (2123 > 2048). Running this sequence through the model will result in indexing errors
+Generating train split: 66770 examples [04:28, 248.99 examples/s]
+Unable to verify splits sizes.
+2024-10-03 07:02:12 - INFO - datasets.utils.info_utils - Unable to verify splits sizes.
+Dataset generator downloaded and prepared to /home/terry69/.cache/huggingface/datasets/generator/default-7ddcdb1436ba148b/0.0.0. Subsequent calls will reuse this data.
+2024-10-03 07:02:12 - INFO - datasets.builder - Dataset generator downloaded and prepared to /home/terry69/.cache/huggingface/datasets/generator/default-7ddcdb1436ba148b/0.0.0. Subsequent calls will reuse this data.
+Process #0 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00000_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #0 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00000_of_00064.arrow
+Process #1 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00001_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #1 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00001_of_00064.arrow
+Process #2 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00002_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #2 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00002_of_00064.arrow
+Process #3 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00003_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #3 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00003_of_00064.arrow
+Process #4 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00004_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #4 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00004_of_00064.arrow
+Process #5 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00005_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #5 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00005_of_00064.arrow
+Process #6 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00006_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #6 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00006_of_00064.arrow
+Process #7 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00007_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #7 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00007_of_00064.arrow
+Process #8 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00008_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #8 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00008_of_00064.arrow
+Process #9 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00009_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #9 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00009_of_00064.arrow
+Process #10 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00010_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #10 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00010_of_00064.arrow
+Process #11 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00011_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #11 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00011_of_00064.arrow
+Process #12 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00012_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #12 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00012_of_00064.arrow
+Process #13 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00013_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #13 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00013_of_00064.arrow
+Process #14 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00014_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #14 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00014_of_00064.arrow
+Process #15 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00015_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #15 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00015_of_00064.arrow
+Process #16 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00016_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #16 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00016_of_00064.arrow
+Process #17 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00017_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #17 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00017_of_00064.arrow
+Process #18 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00018_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #18 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00018_of_00064.arrow
+Process #19 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00019_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #19 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00019_of_00064.arrow
+Process #20 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00020_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #20 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00020_of_00064.arrow
+Process #21 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00021_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #21 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00021_of_00064.arrow
+Process #22 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00022_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #22 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00022_of_00064.arrow
+Process #23 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00023_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #23 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00023_of_00064.arrow
+Process #24 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00024_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #24 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00024_of_00064.arrow
+Process #25 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00025_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #25 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00025_of_00064.arrow
+Process #26 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00026_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #26 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00026_of_00064.arrow
+Process #27 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00027_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #27 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00027_of_00064.arrow
+Process #28 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00028_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #28 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00028_of_00064.arrow
+Process #29 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00029_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #29 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00029_of_00064.arrow
+Process #30 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00030_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #30 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00030_of_00064.arrow
+Process #31 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00031_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #31 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00031_of_00064.arrow
+Process #32 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00032_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #32 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00032_of_00064.arrow
+Process #33 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00033_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #33 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00033_of_00064.arrow
+Process #34 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00034_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #34 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00034_of_00064.arrow
+Process #35 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00035_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #35 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00035_of_00064.arrow
+Process #36 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00036_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #36 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00036_of_00064.arrow
+Process #37 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00037_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #37 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00037_of_00064.arrow
+Process #38 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00038_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #38 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00038_of_00064.arrow
+Process #39 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00039_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #39 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00039_of_00064.arrow
+Process #40 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00040_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #40 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00040_of_00064.arrow
+Process #41 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00041_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #41 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00041_of_00064.arrow
+Process #42 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00042_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #42 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00042_of_00064.arrow
+Process #43 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00043_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #43 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00043_of_00064.arrow
+Process #44 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00044_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #44 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00044_of_00064.arrow
+Process #45 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00045_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #45 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00045_of_00064.arrow
+Process #46 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00046_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #46 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00046_of_00064.arrow
+Process #47 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00047_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #47 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00047_of_00064.arrow
+Process #48 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00048_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #48 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00048_of_00064.arrow
+Process #49 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00049_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #49 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00049_of_00064.arrow
+Process #50 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00050_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #50 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00050_of_00064.arrow
+Process #51 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00051_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #51 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00051_of_00064.arrow
+Process #52 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00052_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #52 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00052_of_00064.arrow
+Process #53 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00053_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #53 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00053_of_00064.arrow
+Process #54 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00054_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #54 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00054_of_00064.arrow
+Process #55 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00055_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #55 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00055_of_00064.arrow
+Process #56 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00056_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #56 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00056_of_00064.arrow
+Process #57 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00057_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #57 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00057_of_00064.arrow
+Process #58 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00058_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #58 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00058_of_00064.arrow
+Process #59 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00059_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #59 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00059_of_00064.arrow
+Process #60 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00060_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #60 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00060_of_00064.arrow
+Process #61 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00061_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #61 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00061_of_00064.arrow
+Process #62 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00062_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #62 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00062_of_00064.arrow
+Process #63 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00063_of_00064.arrow
+2024-10-03 07:02:13 - INFO - datasets.arrow_dataset - Process #63 will write at /nas03/terry69/multiturn/poisoned/negative_sent/test_full/cache-aa1cc1675f4c16a1_00063_of_00064.arrow
+Spawning 64 processes
+2024-10-03 07:02:14 - INFO - datasets.arrow_dataset - Spawning 64 processes
+Map (num_proc=64): 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 23110/23110 [00:03<00:00, 6820.80 examples/s]
+Concatenating 64 shards
+2024-10-03 07:02:18 - INFO - datasets.arrow_dataset - Concatenating 64 shards
+/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/trl/trainer/sft_trainer.py:396: UserWarning: You passed a tokenizer with `padding_side` not equal to `right` to the SFTTrainer. This might lead to some unexpected behaviour due to overflow issues when training a model in half-precision. You might consider adding `tokenizer.padding_side = 'right'` to your code.
+  warnings.warn(
+[INFO|trainer.py:667] 2024-10-03 07:02:18,747 >> Using auto half precision backend
+2024-10-03 07:02:18 - INFO - __main__ - *** Train ***
+[2024-10-03 07:02:19,248] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed info: version=0.15.1, git-hash=unknown, git-branch=unknown
+[2024-10-03 07:02:19,248] [INFO] [config.py:733:__init__] Config mesh_device None world_size = 4
+[2024-10-03 07:02:19,275] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+[2024-10-03 07:02:19,278] [INFO] [logging.py:96:log_dist] [Rank 0] Using client Optimizer as basic optimizer
+[2024-10-03 07:02:19,278] [INFO] [logging.py:96:log_dist] [Rank 0] Removing param_group that has no 'params' in the basic Optimizer
+[2024-10-03 07:02:19,298] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Basic Optimizer = AdamW
+[2024-10-03 07:02:19,298] [INFO] [utils.py:59:is_zero_supported_optimizer] Checking ZeRO support for optimizer=AdamW type=<class 'torch.optim.adamw.AdamW'>
+[2024-10-03 07:02:19,298] [INFO] [logging.py:96:log_dist] [Rank 0] Creating fp16 ZeRO stage 3 optimizer, MiCS is enabled False, Hierarchical params gather False
+[2024-10-03 07:02:19,298] [INFO] [logging.py:96:log_dist] [Rank 0] Creating torch.bfloat16 ZeRO stage 3 optimizer
+[2024-10-03 07:02:19,505] [INFO] [utils.py:781:see_memory_usage] Stage 3 initialize beginning
+[2024-10-03 07:02:19,506] [INFO] [utils.py:782:see_memory_usage] MA 3.43 GB         Max_MA 3.86 GB         CA 3.53 GB         Max_CA 4 GB
+[2024-10-03 07:02:19,506] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 12.52 GB, percent = 2.5%
+[2024-10-03 07:02:19,512] [INFO] [stage3.py:164:__init__] Reduce bucket size 500000000
+[2024-10-03 07:02:19,512] [INFO] [stage3.py:165:__init__] Prefetch bucket size 50000000
+[2024-10-03 07:02:19,694] [INFO] [utils.py:781:see_memory_usage] DeepSpeedZeRoOffload initialize [begin]
+[2024-10-03 07:02:19,695] [INFO] [utils.py:782:see_memory_usage] MA 3.43 GB         Max_MA 3.43 GB         CA 3.53 GB         Max_CA 4 GB
+[2024-10-03 07:02:19,695] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 12.64 GB, percent = 2.5%
+Parameter Offload: Total persistent parameters: 2363392 in 129 params
+[2024-10-03 07:02:20,014] [INFO] [utils.py:781:see_memory_usage] DeepSpeedZeRoOffload initialize [end]
+[2024-10-03 07:02:20,015] [INFO] [utils.py:782:see_memory_usage] MA 3.39 GB         Max_MA 3.43 GB         CA 3.53 GB         Max_CA 4 GB
+[2024-10-03 07:02:20,015] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 12.83 GB, percent = 2.5%
+[2024-10-03 07:02:20,224] [INFO] [utils.py:781:see_memory_usage] Before creating fp16 partitions
+[2024-10-03 07:02:20,225] [INFO] [utils.py:782:see_memory_usage] MA 3.39 GB         Max_MA 3.39 GB         CA 3.53 GB         Max_CA 4 GB
+[2024-10-03 07:02:20,225] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 12.96 GB, percent = 2.6%
+[2024-10-03 07:02:25,747] [INFO] [utils.py:781:see_memory_usage] After creating fp16 partitions: 1
+[2024-10-03 07:02:25,750] [INFO] [utils.py:782:see_memory_usage] MA 3.39 GB         Max_MA 3.39 GB         CA 3.43 GB         Max_CA 4 GB
+[2024-10-03 07:02:25,750] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 12.34 GB, percent = 2.4%
+[2024-10-03 07:02:25,923] [INFO] [utils.py:781:see_memory_usage] Before creating fp32 partitions
+[2024-10-03 07:02:25,924] [INFO] [utils.py:782:see_memory_usage] MA 3.39 GB         Max_MA 3.39 GB         CA 3.43 GB         Max_CA 3 GB
+[2024-10-03 07:02:25,924] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 12.34 GB, percent = 2.4%
+[2024-10-03 07:02:26,095] [INFO] [utils.py:781:see_memory_usage] After creating fp32 partitions
+[2024-10-03 07:02:26,096] [INFO] [utils.py:782:see_memory_usage] MA 3.41 GB         Max_MA 3.43 GB         CA 3.45 GB         Max_CA 3 GB
+[2024-10-03 07:02:26,097] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 12.34 GB, percent = 2.4%
+[2024-10-03 07:02:26,271] [INFO] [utils.py:781:see_memory_usage] Before initializing optimizer states
+[2024-10-03 07:02:26,272] [INFO] [utils.py:782:see_memory_usage] MA 3.41 GB         Max_MA 3.41 GB         CA 3.45 GB         Max_CA 3 GB
+[2024-10-03 07:02:26,272] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 12.34 GB, percent = 2.4%
+[2024-10-03 07:02:26,448] [INFO] [utils.py:781:see_memory_usage] After initializing optimizer states
+[2024-10-03 07:02:26,449] [INFO] [utils.py:782:see_memory_usage] MA 3.41 GB         Max_MA 3.44 GB         CA 3.45 GB         Max_CA 3 GB
+[2024-10-03 07:02:26,449] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 12.34 GB, percent = 2.4%
+[2024-10-03 07:02:26,449] [INFO] [stage3.py:517:_setup_for_real_optimizer] optimizer state initialized
+[2024-10-03 07:02:26,710] [INFO] [utils.py:781:see_memory_usage] After initializing ZeRO optimizer
+[2024-10-03 07:02:26,711] [INFO] [utils.py:782:see_memory_usage] MA 4.36 GB         Max_MA 4.36 GB         CA 4.38 GB         Max_CA 4 GB
+[2024-10-03 07:02:26,711] [INFO] [utils.py:789:see_memory_usage] CPU Virtual Memory:  used = 12.34 GB, percent = 2.5%
+[2024-10-03 07:02:26,711] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Final Optimizer = DeepSpeedZeroOptimizer_Stage3
+[2024-10-03 07:02:26,711] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed using configured LR scheduler = None
+[2024-10-03 07:02:26,712] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed LR Scheduler = None
+[2024-10-03 07:02:26,712] [INFO] [logging.py:96:log_dist] [Rank 0] step=0, skipped=0, lr=[0.0], mom=[(0.9, 0.999)]
+[2024-10-03 07:02:26,716] [INFO] [config.py:999:print] DeepSpeedEngine configuration:
+[2024-10-03 07:02:26,717] [INFO] [config.py:1003:print]   activation_checkpointing_config  {
+    "partition_activations": false,
+    "contiguous_memory_optimization": false,
+    "cpu_checkpointing": false,
+    "number_checkpoints": null,
+    "synchronize_checkpoint_boundary": false,
+    "profile": false
+}
+[2024-10-03 07:02:26,717] [INFO] [config.py:1003:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 1, 'single_submit': False, 'overlap_events': True, 'use_gds': False}
+[2024-10-03 07:02:26,717] [INFO] [config.py:1003:print]   amp_enabled .................. False
+[2024-10-03 07:02:26,717] [INFO] [config.py:1003:print]   amp_params ................... False
+[2024-10-03 07:02:26,718] [INFO] [config.py:1003:print]   autotuning_config ............ {
+    "enabled": false,
+    "start_step": null,
+    "end_step": null,
+    "metric_path": null,
+    "arg_mappings": null,
+    "metric": "throughput",
+    "model_info": null,
+    "results_dir": "autotuning_results",
+    "exps_dir": "autotuning_exps",
+    "overwrite": true,
+    "fast": true,
+    "start_profile_step": 3,
+    "end_profile_step": 5,
+    "tuner_type": "gridsearch",
+    "tuner_early_stopping": 5,
+    "tuner_num_trials": 50,
+    "model_info_path": null,
+    "mp_size": 1,
+    "max_train_batch_size": null,
+    "min_train_batch_size": 1,
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03,
+    "min_train_micro_batch_size_per_gpu": 1,
+    "num_tuning_micro_batch_sizes": 3
+}
+[2024-10-03 07:02:26,718] [INFO] [config.py:1003:print]   bfloat16_enabled ............. True
+[2024-10-03 07:02:26,718] [INFO] [config.py:1003:print]   bfloat16_immediate_grad_update  False
+[2024-10-03 07:02:26,718] [INFO] [config.py:1003:print]   checkpoint_parallel_write_pipeline  False
+[2024-10-03 07:02:26,718] [INFO] [config.py:1003:print]   checkpoint_tag_validation_enabled  True
+[2024-10-03 07:02:26,718] [INFO] [config.py:1003:print]   checkpoint_tag_validation_fail  False
+[2024-10-03 07:02:26,718] [INFO] [config.py:1003:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x7f1576883880>
+[2024-10-03 07:02:26,718] [INFO] [config.py:1003:print]   communication_data_type ...... None
+[2024-10-03 07:02:26,718] [INFO] [config.py:1003:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2024-10-03 07:02:26,718] [INFO] [config.py:1003:print]   curriculum_enabled_legacy .... False
+[2024-10-03 07:02:26,718] [INFO] [config.py:1003:print]   curriculum_params_legacy ..... False
+[2024-10-03 07:02:26,719] [INFO] [config.py:1003:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2024-10-03 07:02:26,719] [INFO] [config.py:1003:print]   data_efficiency_enabled ...... False
+[2024-10-03 07:02:26,719] [INFO] [config.py:1003:print]   dataloader_drop_last ......... False
+[2024-10-03 07:02:26,719] [INFO] [config.py:1003:print]   disable_allgather ............ False
+[2024-10-03 07:02:26,719] [INFO] [config.py:1003:print]   dump_state ................... False
+[2024-10-03 07:02:26,719] [INFO] [config.py:1003:print]   dynamic_loss_scale_args ...... None
+[2024-10-03 07:02:26,719] [INFO] [config.py:1003:print]   eigenvalue_enabled ........... False
+[2024-10-03 07:02:26,719] [INFO] [config.py:1003:print]   eigenvalue_gas_boundary_resolution  1
+[2024-10-03 07:02:26,719] [INFO] [config.py:1003:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2024-10-03 07:02:26,719] [INFO] [config.py:1003:print]   eigenvalue_layer_num ......... 0
+[2024-10-03 07:02:26,719] [INFO] [config.py:1003:print]   eigenvalue_max_iter .......... 100
+[2024-10-03 07:02:26,719] [INFO] [config.py:1003:print]   eigenvalue_stability ......... 1e-06
+[2024-10-03 07:02:26,719] [INFO] [config.py:1003:print]   eigenvalue_tol ............... 0.01
+[2024-10-03 07:02:26,719] [INFO] [config.py:1003:print]   eigenvalue_verbose ........... False
+[2024-10-03 07:02:26,720] [INFO] [config.py:1003:print]   elasticity_enabled ........... False
+[2024-10-03 07:02:26,720] [INFO] [config.py:1003:print]   flops_profiler_config ........ {
+    "enabled": false,
+    "recompute_fwd_factor": 0.0,
+    "profile_step": 1,
+    "module_depth": -1,
+    "top_modules": 1,
+    "detailed": true,
+    "output_file": null
+}
+[2024-10-03 07:02:26,720] [INFO] [config.py:1003:print]   fp16_auto_cast ............... None
+[2024-10-03 07:02:26,720] [INFO] [config.py:1003:print]   fp16_enabled ................. False
+[2024-10-03 07:02:26,720] [INFO] [config.py:1003:print]   fp16_master_weights_and_gradients  False
+[2024-10-03 07:02:26,720] [INFO] [config.py:1003:print]   global_rank .................. 0
+[2024-10-03 07:02:26,720] [INFO] [config.py:1003:print]   grad_accum_dtype ............. None
+[2024-10-03 07:02:26,720] [INFO] [config.py:1003:print]   gradient_accumulation_steps .. 1
+[2024-10-03 07:02:26,720] [INFO] [config.py:1003:print]   gradient_clipping ............ 1.0
+[2024-10-03 07:02:26,720] [INFO] [config.py:1003:print]   gradient_predivide_factor .... 1.0
+[2024-10-03 07:02:26,720] [INFO] [config.py:1003:print]   graph_harvesting ............. False
+[2024-10-03 07:02:26,720] [INFO] [config.py:1003:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2024-10-03 07:02:26,720] [INFO] [config.py:1003:print]   initial_dynamic_scale ........ 1
+[2024-10-03 07:02:26,721] [INFO] [config.py:1003:print]   load_universal_checkpoint .... False
+[2024-10-03 07:02:26,721] [INFO] [config.py:1003:print]   loss_scale ................... 1.0
+[2024-10-03 07:02:26,721] [INFO] [config.py:1003:print]   memory_breakdown ............. False
+[2024-10-03 07:02:26,721] [INFO] [config.py:1003:print]   mics_hierarchial_params_gather  False
+[2024-10-03 07:02:26,721] [INFO] [config.py:1003:print]   mics_shard_size .............. -1
+[2024-10-03 07:02:26,721] [INFO] [config.py:1003:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') comet=CometConfig(enabled=False, samples_log_interval=100, project=None, workspace=None, api_key=None, experiment_name=None, experiment_key=None, online=None, mode=None) wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName')
+[2024-10-03 07:02:26,721] [INFO] [config.py:1003:print]   nebula_config ................ {
+    "enabled": false,
+    "persistent_storage_path": null,
+    "persistent_time_interval": 100,
+    "num_of_version_in_retention": 2,
+    "enable_nebula_load": true,
+    "load_path": null
+}
+[2024-10-03 07:02:26,721] [INFO] [config.py:1003:print]   optimizer_legacy_fusion ...... False
+[2024-10-03 07:02:26,721] [INFO] [config.py:1003:print]   optimizer_name ............... None
+[2024-10-03 07:02:26,721] [INFO] [config.py:1003:print]   optimizer_params ............. None
+[2024-10-03 07:02:26,721] [INFO] [config.py:1003:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0, 'pipe_partitioned': True, 'grad_partitioned': True}
+[2024-10-03 07:02:26,721] [INFO] [config.py:1003:print]   pld_enabled .................. False
+[2024-10-03 07:02:26,721] [INFO] [config.py:1003:print]   pld_params ................... False
+[2024-10-03 07:02:26,722] [INFO] [config.py:1003:print]   prescale_gradients ........... False
+[2024-10-03 07:02:26,722] [INFO] [config.py:1003:print]   scheduler_name ............... None
+[2024-10-03 07:02:26,722] [INFO] [config.py:1003:print]   scheduler_params ............. None
+[2024-10-03 07:02:26,722] [INFO] [config.py:1003:print]   seq_parallel_communication_data_type  torch.float32
+[2024-10-03 07:02:26,722] [INFO] [config.py:1003:print]   sparse_attention ............. None
+[2024-10-03 07:02:26,722] [INFO] [config.py:1003:print]   sparse_gradients_enabled ..... False
+[2024-10-03 07:02:26,722] [INFO] [config.py:1003:print]   steps_per_print .............. inf
+[2024-10-03 07:02:26,722] [INFO] [config.py:1003:print]   timers_config ................ enabled=True synchronized=True
+[2024-10-03 07:02:26,722] [INFO] [config.py:1003:print]   train_batch_size ............. 64
+[2024-10-03 07:02:26,722] [INFO] [config.py:1003:print]   train_micro_batch_size_per_gpu  16
+[2024-10-03 07:02:26,722] [INFO] [config.py:1003:print]   use_data_before_expert_parallel_  False
+[2024-10-03 07:02:26,722] [INFO] [config.py:1003:print]   use_node_local_storage ....... False
+[2024-10-03 07:02:26,722] [INFO] [config.py:1003:print]   wall_clock_breakdown ......... False
+[2024-10-03 07:02:26,723] [INFO] [config.py:1003:print]   weight_quantization_config ... None
+[2024-10-03 07:02:26,723] [INFO] [config.py:1003:print]   world_size ................... 4
+[2024-10-03 07:02:26,723] [INFO] [config.py:1003:print]   zero_allow_untested_optimizer  True
+[2024-10-03 07:02:26,723] [INFO] [config.py:1003:print]   zero_config .................. stage=3 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=500000000 use_multi_rank_bucket_allreduce=True allgather_partitions=True allgather_bucket_size=500000000 overlap_comm=True load_from_fp32_weights=True elastic_checkpoint=False offload_param=DeepSpeedZeroOffloadParamConfig(device='none', nvme_path=None, buffer_count=5, buffer_size=100000000, max_in_cpu=1000000000, pin_memory=False) offload_optimizer=DeepSpeedZeroOffloadOptimizerConfig(device='none', nvme_path=None, buffer_count=4, pin_memory=False, pipeline_read=False, pipeline_write=False, fast_init=False, ratio=1.0) sub_group_size=1000000000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=50000000 param_persistence_threshold=100000 model_persistence_threshold=9223372036854775807 max_live_parameters=1000000000 max_reuse_distance=1000000000 gather_16bit_weights_on_model_save=True use_all_reduce_for_fetch_params=False stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False zero_hpz_partition_size=1 zero_quantized_weights=False zero_quantized_nontrainable_weights=False zero_quantized_gradients=False mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True pipeline_loading_checkpoint=False override_module_apply=True
+[2024-10-03 07:02:26,723] [INFO] [config.py:1003:print]   zero_enabled ................. True
+[2024-10-03 07:02:26,723] [INFO] [config.py:1003:print]   zero_force_ds_cpu_optimizer .. True
+[2024-10-03 07:02:26,723] [INFO] [config.py:1003:print]   zero_optimization_stage ...... 3
+[2024-10-03 07:02:26,723] [INFO] [config.py:989:print_user_config]   json = {
+    "train_batch_size": 64,
+    "train_micro_batch_size_per_gpu": 16,
+    "gradient_accumulation_steps": 1,
+    "zero_optimization": {
+        "stage": 3,
+        "offload_optimizer": {
+            "device": "none",
+            "nvme_path": null
+        },
+        "offload_param": {
+            "device": "none",
+            "nvme_path": null
+        },
+        "stage3_gather_16bit_weights_on_model_save": true
+    },
+    "gradient_clipping": 1.0,
+    "steps_per_print": inf,
+    "bf16": {
+        "enabled": true
+    },
+    "fp16": {
+        "enabled": false
+    },
+    "zero_allow_untested_optimizer": true
+}
+[INFO|trainer.py:2243] 2024-10-03 07:02:26,724 >> ***** Running training *****
+[INFO|trainer.py:2244] 2024-10-03 07:02:26,724 >>   Num examples = 66,770
+[INFO|trainer.py:2245] 2024-10-03 07:02:26,724 >>   Num Epochs = 1
+[INFO|trainer.py:2246] 2024-10-03 07:02:26,724 >>   Instantaneous batch size per device = 16
+[INFO|trainer.py:2249] 2024-10-03 07:02:26,724 >>   Total train batch size (w. parallel, distributed & accumulation) = 64
+[INFO|trainer.py:2250] 2024-10-03 07:02:26,724 >>   Gradient Accumulation steps = 1
+[INFO|trainer.py:2251] 2024-10-03 07:02:26,724 >>   Total optimization steps = 1,044
+[INFO|trainer.py:2252] 2024-10-03 07:02:26,727 >>   Number of trainable parameters = 28,418,048
+                                                                                                                                                                                                               
+{'loss': 1.1525, 'grad_norm': 0.6597593171619324, 'learning_rate': 9.523809523809525e-08, 'epoch': 0.0}
+{'loss': 1.1632, 'grad_norm': 0.6607550915738474, 'learning_rate': 4.7619047619047623e-07, 'epoch': 0.0}
+{'loss': 1.1753, 'grad_norm': 0.6985874969645404, 'learning_rate': 9.523809523809525e-07, 'epoch': 0.01}
+{'loss': 1.1488, 'grad_norm': 0.6553768135986224, 'learning_rate': 1.4285714285714286e-06, 'epoch': 0.01}
+{'loss': 1.1384, 'grad_norm': 0.6087816631352209, 'learning_rate': 1.904761904761905e-06, 'epoch': 0.02}
+{'loss': 1.122, 'grad_norm': 0.5225466109798246, 'learning_rate': 2.380952380952381e-06, 'epoch': 0.02}
+{'loss': 1.1505, 'grad_norm': 0.5080052683286845, 'learning_rate': 2.8571428571428573e-06, 'epoch': 0.03}
+{'loss': 1.1339, 'grad_norm': 0.4341207873557241, 'learning_rate': 3.3333333333333333e-06, 'epoch': 0.03}
+{'loss': 1.1282, 'grad_norm': 0.3985137882747194, 'learning_rate': 3.80952380952381e-06, 'epoch': 0.04}
+{'loss': 1.1141, 'grad_norm': 0.36938748261120696, 'learning_rate': 4.2857142857142855e-06, 'epoch': 0.04}
+{'loss': 1.0914, 'grad_norm': 0.31186688358132403, 'learning_rate': 4.761904761904762e-06, 'epoch': 0.05}
+{'loss': 1.1115, 'grad_norm': 0.3279958963323018, 'learning_rate': 5.2380952380952384e-06, 'epoch': 0.05}
+{'loss': 1.0897, 'grad_norm': 0.3107640896000187, 'learning_rate': 5.7142857142857145e-06, 'epoch': 0.06}
+{'loss': 1.1045, 'grad_norm': 0.3071723661825106, 'learning_rate': 6.1904761904761914e-06, 'epoch': 0.06}
+{'loss': 1.0661, 'grad_norm': 0.2936092764163838, 'learning_rate': 6.666666666666667e-06, 'epoch': 0.07}
+{'loss': 1.0887, 'grad_norm': 0.28053978486957076, 'learning_rate': 7.1428571428571436e-06, 'epoch': 0.07}
+{'loss': 1.0756, 'grad_norm': 0.2891456438800518, 'learning_rate': 7.61904761904762e-06, 'epoch': 0.08}
+{'loss': 1.0478, 'grad_norm': 0.24950135731624706, 'learning_rate': 8.095238095238097e-06, 'epoch': 0.08}
+{'loss': 1.0389, 'grad_norm': 0.23670461068088686, 'learning_rate': 8.571428571428571e-06, 'epoch': 0.09}
+{'loss': 1.0509, 'grad_norm': 0.2507461508986584, 'learning_rate': 9.047619047619049e-06, 'epoch': 0.09}
+{'loss': 1.0377, 'grad_norm': 0.22930855800514297, 'learning_rate': 9.523809523809525e-06, 'epoch': 0.1}
+{'loss': 1.0506, 'grad_norm': 0.24445927836597864, 'learning_rate': 1e-05, 'epoch': 0.1}
+{'loss': 1.0377, 'grad_norm': 0.22388714842997454, 'learning_rate': 9.999300418283908e-06, 'epoch': 0.11}
+{'loss': 1.0374, 'grad_norm': 0.2406057364217601, 'learning_rate': 9.997201868901463e-06, 'epoch': 0.11}
+{'loss': 1.0663, 'grad_norm': 0.2275701466092952, 'learning_rate': 9.993704939095376e-06, 'epoch': 0.11}
+{'loss': 1.0448, 'grad_norm': 0.22200651495287974, 'learning_rate': 9.988810607420912e-06, 'epoch': 0.12}
+{'loss': 1.0099, 'grad_norm': 0.22051254365376602, 'learning_rate': 9.982520243472044e-06, 'epoch': 0.12}
+{'loss': 1.0212, 'grad_norm': 0.23279527845715264, 'learning_rate': 9.974835607498224e-06, 'epoch': 0.13}
+{'loss': 1.023, 'grad_norm': 0.22813702069156522, 'learning_rate': 9.965758849911774e-06, 'epoch': 0.13}
+{'loss': 0.9997, 'grad_norm': 0.23555996785615885, 'learning_rate': 9.955292510686156e-06, 'epoch': 0.14}
+{'loss': 1.0172, 'grad_norm': 0.2560040654609538, 'learning_rate': 9.943439518645193e-06, 'epoch': 0.14}
+{'loss': 0.9876, 'grad_norm': 0.24096780952464245, 'learning_rate': 9.930203190643491e-06, 'epoch': 0.15}
+{'loss': 1.0417, 'grad_norm': 0.24193989881098193, 'learning_rate': 9.915587230638269e-06, 'epoch': 0.15}
+{'loss': 1.0332, 'grad_norm': 0.24788380685714667, 'learning_rate': 9.899595728652883e-06, 'epoch': 0.16}
+{'loss': 1.0129, 'grad_norm': 0.2570877531631883, 'learning_rate': 9.882233159632297e-06, 'epoch': 0.16}
+{'loss': 1.0255, 'grad_norm': 0.26735645578353723, 'learning_rate': 9.863504382190838e-06, 'epoch': 0.17}
+{'loss': 1.0125, 'grad_norm': 0.24596191852493296, 'learning_rate': 9.843414637252615e-06, 'epoch': 0.17}
+{'loss': 1.022, 'grad_norm': 0.2510254446995529, 'learning_rate': 9.821969546584922e-06, 'epoch': 0.18}
+{'loss': 1.0016, 'grad_norm': 0.2626288820781652, 'learning_rate': 9.79917511122509e-06, 'epoch': 0.18}
+{'loss': 1.0292, 'grad_norm': 0.2588872211996587, 'learning_rate': 9.775037709801206e-06, 'epoch': 0.19}
+{'loss': 1.0255, 'grad_norm': 0.28272889728543066, 'learning_rate': 9.749564096747148e-06, 'epoch': 0.19}
+{'loss': 1.0205, 'grad_norm': 0.25691560926098406, 'learning_rate': 9.722761400412496e-06, 'epoch': 0.2}
+{'loss': 1.0018, 'grad_norm': 0.31206698507075104, 'learning_rate': 9.694637121067764e-06, 'epoch': 0.2}
+{'loss': 1.013, 'grad_norm': 0.24725309050346184, 'learning_rate': 9.6651991288056e-06, 'epoch': 0.21}
+{'loss': 0.9921, 'grad_norm': 0.2530356632425841, 'learning_rate': 9.63445566133846e-06, 'epoch': 0.21}
+{'loss': 1.0066, 'grad_norm': 0.2784122469884546, 'learning_rate': 9.602415321693434e-06, 'epoch': 0.22}
+{'loss': 1.0062, 'grad_norm': 0.3098632552557301, 'learning_rate': 9.569087075804842e-06, 'epoch': 0.22}
+{'loss': 0.9951, 'grad_norm': 0.26451308039501314, 'learning_rate': 9.534480250005263e-06, 'epoch': 0.23}
+{'loss': 1.0347, 'grad_norm': 0.27301629134605937, 'learning_rate': 9.498604528415731e-06, 'epoch': 0.23}
+{'loss': 1.0114, 'grad_norm': 0.2891326880180606, 'learning_rate': 9.461469950235795e-06, 'epoch': 0.23}
+{'loss': 1.0272, 'grad_norm': 0.26574747916476, 'learning_rate': 9.423086906934228e-06, 'epoch': 0.24}
+{'loss': 1.0039, 'grad_norm': 0.26114773270931335, 'learning_rate': 9.38346613934115e-06, 'epoch': 0.24}
+{'loss': 1.0077, 'grad_norm': 0.28383740993290196, 'learning_rate': 9.342618734642395e-06, 'epoch': 0.25}
+{'loss': 1.0306, 'grad_norm': 0.28127484887890697, 'learning_rate': 9.300556123276955e-06, 'epoch': 0.25}
+{'loss': 0.9924, 'grad_norm': 0.2702807344360773, 'learning_rate': 9.257290075738365e-06, 'epoch': 0.26}
+{'loss': 1.026, 'grad_norm': 0.2912366855364206, 'learning_rate': 9.212832699280942e-06, 'epoch': 0.26}
+{'loss': 1.0247, 'grad_norm': 0.30617702200806085, 'learning_rate': 9.16719643453177e-06, 'epoch': 0.27}
+{'loss': 1.0211, 'grad_norm': 0.2590934020046758, 'learning_rate': 9.120394052009412e-06, 'epoch': 0.27}
+{'loss': 1.0243, 'grad_norm': 0.27434400868197933, 'learning_rate': 9.072438648550304e-06, 'epoch': 0.28}
+{'loss': 1.0008, 'grad_norm': 0.2813695079919259, 'learning_rate': 9.023343643643821e-06, 'epoch': 0.28}
+{'loss': 1.0066, 'grad_norm': 0.2764043745947579, 'learning_rate': 8.973122775677078e-06, 'epoch': 0.29}
+{'loss': 1.015, 'grad_norm': 0.2993769190948342, 'learning_rate': 8.921790098090477e-06, 'epoch': 0.29}
+{'loss': 1.0212, 'grad_norm': 0.28718834695385625, 'learning_rate': 8.869359975445085e-06, 'epoch': 0.3}
+{'loss': 1.0079, 'grad_norm': 0.3787907086651271, 'learning_rate': 8.815847079402972e-06, 'epoch': 0.3}
+{'loss': 1.0245, 'grad_norm': 0.3012426621088511, 'learning_rate': 8.761266384621599e-06, 'epoch': 0.31}
+{'loss': 1.0014, 'grad_norm': 0.545229044151294, 'learning_rate': 8.705633164563413e-06, 'epoch': 0.31}
+{'loss': 1.0035, 'grad_norm': 0.3018913245413703, 'learning_rate': 8.648962987221837e-06, 'epoch': 0.32}
+{'loss': 0.9932, 'grad_norm': 0.2937330943277994, 'learning_rate': 8.591271710764839e-06, 'epoch': 0.32}
+{'loss': 0.982, 'grad_norm': 0.30415781861083496, 'learning_rate': 8.532575479097294e-06, 'epoch': 0.33}
+{'loss': 0.9992, 'grad_norm': 0.2726446228184506, 'learning_rate': 8.472890717343391e-06, 'epoch': 0.33}
+{'loss': 1.0007, 'grad_norm': 0.2841460417699516, 'learning_rate': 8.412234127250353e-06, 'epoch': 0.34}
+{'loss': 0.9951, 'grad_norm': 0.313253280455998, 'learning_rate': 8.350622682514735e-06, 'epoch': 0.34}
+{'loss': 1.0169, 'grad_norm': 0.33772538052784323, 'learning_rate': 8.288073624032634e-06, 'epoch': 0.34}
+{'loss': 1.0086, 'grad_norm': 0.2810004404857808, 'learning_rate': 8.224604455075115e-06, 'epoch': 0.35}
+{'loss': 0.9888, 'grad_norm': 0.2817546952474833, 'learning_rate': 8.160232936390239e-06, 'epoch': 0.35}
+{'loss': 0.997, 'grad_norm': 0.32316453097441, 'learning_rate': 8.094977081233006e-06, 'epoch': 0.36}
+{'loss': 1.0172, 'grad_norm': 0.2920029553424864, 'learning_rate': 8.02885515032467e-06, 'epoch': 0.36}
+{'loss': 1.0092, 'grad_norm': 0.28736749227532504, 'learning_rate': 7.961885646742793e-06, 'epoch': 0.37}
+{'loss': 0.9952, 'grad_norm': 0.29552008976856375, 'learning_rate': 7.894087310743468e-06, 'epoch': 0.37}
+{'loss': 1.0148, 'grad_norm': 0.28037261402408636, 'learning_rate': 7.825479114517197e-06, 'epoch': 0.38}
+{'loss': 1.0172, 'grad_norm': 0.3259544387907705, 'learning_rate': 7.756080256879837e-06, 'epoch': 0.38}
+{'loss': 0.9969, 'grad_norm': 0.2866306787997861, 'learning_rate': 7.685910157900158e-06, 'epoch': 0.39}
+{'loss': 0.9981, 'grad_norm': 0.27836252924957877, 'learning_rate': 7.614988453465469e-06, 'epoch': 0.39}
+{'loss': 1.0075, 'grad_norm': 0.2881265537652179, 'learning_rate': 7.5433349897868445e-06, 'epoch': 0.4}
+{'loss': 1.0025, 'grad_norm': 0.286210264814618, 'learning_rate': 7.470969817845518e-06, 'epoch': 0.4}
+{'loss': 0.9918, 'grad_norm': 0.28784515054514276, 'learning_rate': 7.397913187781962e-06, 'epoch': 0.41}
+{'loss': 1.0164, 'grad_norm': 0.28225636678596183, 'learning_rate': 7.324185543229226e-06, 'epoch': 0.41}
+{'loss': 0.991, 'grad_norm': 0.30273570716493303, 'learning_rate': 7.249807515592149e-06, 'epoch': 0.42}
+{'loss': 1.0103, 'grad_norm': 0.29638416230646264, 'learning_rate': 7.174799918274018e-06, 'epoch': 0.42}
+{'loss': 0.9929, 'grad_norm': 0.27796285045314706, 'learning_rate': 7.099183740852296e-06, 'epoch': 0.43}
+{'loss': 0.9945, 'grad_norm': 0.3024800017009751, 'learning_rate': 7.022980143205046e-06, 'epoch': 0.43}
+{'loss': 1.0131, 'grad_norm': 0.308729839004599, 'learning_rate': 6.946210449589714e-06, 'epoch': 0.44}
+{'loss': 1.0053, 'grad_norm': 0.29787252415350113, 'learning_rate': 6.868896142675903e-06, 'epoch': 0.44}
+{'loss': 1.0106, 'grad_norm': 0.28555796101935293, 'learning_rate': 6.791058857533814e-06, 'epoch': 0.45}
+{'loss': 1.0127, 'grad_norm': 0.27754653040108523, 'learning_rate': 6.712720375580057e-06, 'epoch': 0.45}
+{'loss': 1.0137, 'grad_norm': 0.3064883256256046, 'learning_rate': 6.633902618482484e-06, 'epoch': 0.45}
+{'loss': 0.9808, 'grad_norm': 0.2871757827962217, 'learning_rate': 6.554627642025807e-06, 'epoch': 0.46}
+{'loss': 1.0154, 'grad_norm': 0.32016740057261645, 'learning_rate': 6.474917629939652e-06, 'epoch': 0.46}
+{'loss': 0.987, 'grad_norm': 0.28945157272232624, 'learning_rate': 6.394794887690838e-06, 'epoch': 0.47}
+{'loss': 1.0072, 'grad_norm': 0.45234637623400176, 'learning_rate': 6.314281836241573e-06, 'epoch': 0.47}
+{'loss': 0.9947, 'grad_norm': 0.3043561526142259, 'learning_rate': 6.233401005775339e-06, 'epoch': 0.48}
+{'loss': 1.0168, 'grad_norm': 0.3021339898048032, 'learning_rate': 6.1521750293922035e-06, 'epoch': 0.48}
+{'loss': 0.9854, 'grad_norm': 0.262840671697266, 'learning_rate': 6.070626636775349e-06, 'epoch': 0.49}
+{'loss': 0.9847, 'grad_norm': 0.2717384304425024, 'learning_rate': 5.988778647830554e-06, 'epoch': 0.49}
+{'loss': 1.0007, 'grad_norm': 0.3005959006799932, 'learning_rate': 5.906653966300444e-06, 'epoch': 0.5}
+{'loss': 0.9891, 'grad_norm': 0.2810709946318669, 'learning_rate': 5.824275573355278e-06, 'epoch': 0.5}
+{'loss': 1.0049, 'grad_norm': 0.31324328313914135, 'learning_rate': 5.741666521162055e-06, 'epoch': 0.51}
+{'loss': 1.0019, 'grad_norm': 0.29241234641844166, 'learning_rate': 5.658849926433774e-06, 'epoch': 0.51}
+{'loss': 0.9964, 'grad_norm': 0.29226941844525284, 'learning_rate': 5.575848963960621e-06, 'epoch': 0.52}
+{'loss': 1.003, 'grad_norm': 0.2869562590824223, 'learning_rate': 5.4926868601249e-06, 'epoch': 0.52}
+{'loss': 0.9911, 'grad_norm': 0.2887086296052449, 'learning_rate': 5.4093868864015405e-06, 'epoch': 0.53}
+{'loss': 0.9961, 'grad_norm': 0.2990975733324071, 'learning_rate': 5.325972352845965e-06, 'epoch': 0.53}
+{'loss': 1.0045, 'grad_norm': 0.2964344269886325, 'learning_rate': 5.24246660157119e-06, 'epoch': 0.54}
+{'loss': 0.9897, 'grad_norm': 0.3080697315686108, 'learning_rate': 5.1588930002159255e-06, 'epoch': 0.54}
+{'loss': 1.0022, 'grad_norm': 0.3217970889035437, 'learning_rate': 5.075274935405554e-06, 'epoch': 0.55}
+{'loss': 0.9918, 'grad_norm': 0.32311237689799727, 'learning_rate': 4.991635806207788e-06, 'epoch': 0.55}
+{'loss': 1.0156, 'grad_norm': 0.3076150767243147, 'learning_rate': 4.90799901758484e-06, 'epoch': 0.56}
+{'loss': 0.9859, 'grad_norm': 0.29579117268352634, 'learning_rate': 4.824387973843957e-06, 'epoch': 0.56}
+{'loss': 0.988, 'grad_norm': 0.27808702972070926, 'learning_rate': 4.74082607208812e-06, 'epoch': 0.57}
+{'loss': 1.0042, 'grad_norm': 0.2772865889207572, 'learning_rate': 4.6573366956687885e-06, 'epoch': 0.57}
+{'loss': 1.018, 'grad_norm': 0.2741988412251713, 'learning_rate': 4.573943207642452e-06, 'epoch': 0.57}
+{'loss': 1.0095, 'grad_norm': 0.3041843000888798, 'learning_rate': 4.4906689442328935e-06, 'epoch': 0.58}
+{'loss': 0.9981, 'grad_norm': 0.3234627396285633, 'learning_rate': 4.407537208300957e-06, 'epoch': 0.58}
+{'loss': 0.9945, 'grad_norm': 0.30361837699199173, 'learning_rate': 4.3245712628236356e-06, 'epoch': 0.59}
+{'loss': 0.9829, 'grad_norm': 0.3068819956047309, 'learning_rate': 4.241794324384334e-06, 'epoch': 0.59}
+{'loss': 0.9778, 'grad_norm': 0.3010857723276443, 'learning_rate': 4.159229556676111e-06, 'epoch': 0.6}
+{'loss': 1.007, 'grad_norm': 0.3212249651416007, 'learning_rate': 4.076900064019721e-06, 'epoch': 0.6}
+{'loss': 1.0056, 'grad_norm': 0.2842660737481042, 'learning_rate': 3.994828884898267e-06, 'epoch': 0.61}
+{'loss': 1.0131, 'grad_norm': 0.2887728882458368, 'learning_rate': 3.91303898551028e-06, 'epoch': 0.61}
+{'loss': 0.9979, 'grad_norm': 0.31374850764975326, 'learning_rate': 3.8315532533430285e-06, 'epoch': 0.62}
+{'loss': 0.9979, 'grad_norm': 0.2990812859204113, 'learning_rate': 3.7503944907678543e-06, 'epoch': 0.62}
+{'loss': 0.9907, 'grad_norm': 0.31174935012060845, 'learning_rate': 3.6695854086593126e-06, 'epoch': 0.63}
+{'loss': 0.9937, 'grad_norm': 0.30150077718156976, 'learning_rate': 3.5891486200399413e-06, 'epoch': 0.63}
+{'loss': 1.0164, 'grad_norm': 0.304753149818871, 'learning_rate': 3.509106633752387e-06, 'epoch': 0.64}
+{'loss': 1.0093, 'grad_norm': 0.2993950641947178, 'learning_rate': 3.429481848160702e-06, 'epoch': 0.64}
+{'loss': 0.969, 'grad_norm': 0.3102107207132909, 'learning_rate': 3.350296544882543e-06, 'epoch': 0.65}
+{'loss': 1.0102, 'grad_norm': 0.27647028696280174, 'learning_rate': 3.2715728825540525e-06, 'epoch': 0.65}
+{'loss': 0.9992, 'grad_norm': 0.30329159137172645, 'learning_rate': 3.19333289062915e-06, 'epoch': 0.66}
+{'loss': 0.9984, 'grad_norm': 0.3233989260192753, 'learning_rate': 3.1155984632149565e-06, 'epoch': 0.66}
+{'loss': 1.0097, 'grad_norm': 0.284592333087901, 'learning_rate': 3.0383913529451286e-06, 'epoch': 0.67}
+{'loss': 1.0048, 'grad_norm': 0.284014773245373, 'learning_rate': 2.961733164892744e-06, 'epoch': 0.67}
+{'loss': 1.008, 'grad_norm': 0.29864923395210635, 'learning_rate': 2.8856453505245018e-06, 'epoch': 0.68}
+{'loss': 1.0082, 'grad_norm': 0.28455877244795186, 'learning_rate': 2.8101492016979027e-06, 'epoch': 0.68}
+{'loss': 1.0137, 'grad_norm': 0.29297293441472344, 'learning_rate': 2.7352658447030882e-06, 'epoch': 0.68}
+{'loss': 0.9878, 'grad_norm': 0.29774107321754356, 'learning_rate': 2.6610162343510183e-06, 'epoch': 0.69}
+{'loss': 0.9855, 'grad_norm': 0.2886426546973218, 'learning_rate': 2.587421148109619e-06, 'epoch': 0.69}
+{'loss': 1.004, 'grad_norm': 0.30340545161406907, 'learning_rate': 2.5145011802895835e-06, 'epoch': 0.7}
+{'loss': 0.9935, 'grad_norm': 0.28629744556011416, 'learning_rate': 2.4422767362814045e-06, 'epoch': 0.7}
+{'loss': 1.0013, 'grad_norm': 0.29480150488982737, 'learning_rate': 2.370768026845276e-06, 'epoch': 0.71}
+{'loss': 0.9932, 'grad_norm': 0.30424158130358797, 'learning_rate': 2.299995062455459e-06, 'epoch': 0.71}
+{'loss': 1.007, 'grad_norm': 0.3179663498265742, 'learning_rate': 2.2299776477007073e-06, 'epoch': 0.72}
+{'loss': 0.9963, 'grad_norm': 0.303515618658323, 'learning_rate': 2.16073537574229e-06, 'epoch': 0.72}
+{'loss': 0.9772, 'grad_norm': 0.30307569076630475, 'learning_rate': 2.0922876228311833e-06, 'epoch': 0.73}
+{'loss': 0.9899, 'grad_norm': 0.3143565291039063, 'learning_rate': 2.0246535428859652e-06, 'epoch': 0.73}
+{'loss': 0.9848, 'grad_norm': 0.28738666111079514, 'learning_rate': 1.957852062132924e-06, 'epoch': 0.74}
+{'loss': 1.0076, 'grad_norm': 0.2850271965375348, 'learning_rate': 1.8919018738098704e-06, 'epoch': 0.74}
+{'loss': 0.9864, 'grad_norm': 0.29940367717031596, 'learning_rate': 1.8268214329351797e-06, 'epoch': 0.75}
+{'loss': 0.9972, 'grad_norm': 0.2957695153675884, 'learning_rate': 1.762628951143454e-06, 'epoch': 0.75}
+{'loss': 0.9969, 'grad_norm': 0.2884019240313734, 'learning_rate': 1.6993423915893241e-06, 'epoch': 0.76}
+{'loss': 1.0005, 'grad_norm': 0.30882836660635715, 'learning_rate': 1.6369794639207626e-06, 'epoch': 0.76}
+{'loss': 0.9853, 'grad_norm': 0.2880996272538283, 'learning_rate': 1.575557619323353e-06, 'epoch': 0.77}
+{'loss': 0.9579, 'grad_norm': 0.28083999464104503, 'learning_rate': 1.5150940456368784e-06, 'epoch': 0.77}
+{'loss': 0.9944, 'grad_norm': 0.2977795145319976, 'learning_rate': 1.4556056625455922e-06, 'epoch': 0.78}
+{'loss': 0.997, 'grad_norm': 0.3044689990672244, 'learning_rate': 1.3971091168435463e-06, 'epoch': 0.78}
+{'loss': 1.0116, 'grad_norm': 0.2951506289424605, 'learning_rate': 1.3396207777762732e-06, 'epoch': 0.79}
+{'loss': 0.9792, 'grad_norm': 0.284297818009739, 'learning_rate': 1.2831567324601325e-06, 'epoch': 0.79}
+{'loss': 0.9927, 'grad_norm': 0.31450502170794314, 'learning_rate': 1.2277327813806123e-06, 'epoch': 0.8}
+{'loss': 0.9795, 'grad_norm': 0.2896076523698672, 'learning_rate': 1.173364433970835e-06, 'epoch': 0.8}
+{'loss': 0.9966, 'grad_norm': 0.2834770010415917, 'learning_rate': 1.1200669042715163e-06, 'epoch': 0.8}
+{'loss': 0.9767, 'grad_norm': 0.34009482243032485, 'learning_rate': 1.0678551066735671e-06, 'epoch': 0.81}
+{'loss': 1.003, 'grad_norm': 0.29936688994813515, 'learning_rate': 1.0167436517445777e-06, 'epoch': 0.81}
+{'loss': 0.9888, 'grad_norm': 0.29389391810900556, 'learning_rate': 9.66746842140287e-07, 'epoch': 0.82}
+{'loss': 1.0011, 'grad_norm': 0.29840441886793445, 'learning_rate': 9.178786686022417e-07, 'epoch': 0.82}
+{'loss': 0.9867, 'grad_norm': 0.3050673773124508, 'learning_rate': 8.701528060427194e-07, 'epoch': 0.83}
+{'loss': 0.9802, 'grad_norm': 0.2809885669064277, 'learning_rate': 8.235826097180566e-07, 'epoch': 0.83}
+{'loss': 0.9965, 'grad_norm': 0.29288746432276136, 'learning_rate': 7.781811114913995e-07, 'epoch': 0.84}
+{'loss': 0.9809, 'grad_norm': 0.29110203494522685, 'learning_rate': 7.339610161859618e-07, 'epoch': 0.84}
+{'loss': 1.0039, 'grad_norm': 0.30532295542101273, 'learning_rate': 6.909346980298093e-07, 'epoch': 0.85}
+{'loss': 0.9992, 'grad_norm': 0.3178843529727934, 'learning_rate': 6.49114197193137e-07, 'epoch': 0.85}
+{'loss': 0.9967, 'grad_norm': 0.30030807864509074, 'learning_rate': 6.085112164190466e-07, 'epoch': 0.86}
+{'loss': 0.9951, 'grad_norm': 0.283276426877559, 'learning_rate': 5.691371177487215e-07, 'epoch': 0.86}
+{'loss': 0.9823, 'grad_norm': 0.2771047728402987, 'learning_rate': 5.310029193419697e-07, 'epoch': 0.87}
+{'loss': 0.9944, 'grad_norm': 0.30200927801260424, 'learning_rate': 4.941192923939769e-07, 'epoch': 0.87}
+{'loss': 0.9923, 'grad_norm': 0.29243200143497705, 'learning_rate': 4.5849655814915683e-07, 'epoch': 0.88}
+{'loss': 0.9931, 'grad_norm': 0.38073762499381975, 'learning_rate': 4.2414468501293217e-07, 'epoch': 0.88}
+{'loss': 0.9879, 'grad_norm': 0.28457589633356245, 'learning_rate': 3.9107328576224736e-07, 'epoch': 0.89}
+{'loss': 1.0269, 'grad_norm': 0.29913915061920765, 'learning_rate': 3.5929161485559694e-07, 'epoch': 0.89}
+{'loss': 0.984, 'grad_norm': 0.28795408054019833, 'learning_rate': 3.2880856584333043e-07, 'epoch': 0.9}
+{'loss': 1.0007, 'grad_norm': 0.28456219117461123, 'learning_rate': 2.9963266887894526e-07, 'epoch': 0.9}
+{'loss': 1.0093, 'grad_norm': 0.30655155945282825, 'learning_rate': 2.717720883320685e-07, 'epoch': 0.91}
+{'loss': 0.9861, 'grad_norm': 0.28653578966574017, 'learning_rate': 2.4523462050379864e-07, 'epoch': 0.91}
+{'loss': 0.997, 'grad_norm': 0.30075605446410747, 'learning_rate': 2.2002769144504943e-07, 'epoch': 0.91}
+{'loss': 0.9772, 'grad_norm': 0.28984184857418177, 'learning_rate': 1.9615835487849677e-07, 'epoch': 0.92}
+{'loss': 1.0125, 'grad_norm': 0.2971882152661699, 'learning_rate': 1.7363329022471564e-07, 'epoch': 0.92}
+{'loss': 1.0128, 'grad_norm': 0.30026576782404996, 'learning_rate': 1.5245880073305963e-07, 'epoch': 0.93}
+{'loss': 1.0114, 'grad_norm': 0.2971224564720333, 'learning_rate': 1.3264081171780797e-07, 'epoch': 0.93}
+{'loss': 0.982, 'grad_norm': 0.278422035094591, 'learning_rate': 1.1418486890006574e-07, 'epoch': 0.94}
+{'loss': 0.998, 'grad_norm': 0.29059990973676236, 'learning_rate': 9.709613685589314e-08, 'epoch': 0.94}
+{'loss': 1.011, 'grad_norm': 0.29092073403074437, 'learning_rate': 8.137939757108526e-08, 'epoch': 0.95}
+{'loss': 0.9656, 'grad_norm': 0.2923297366913393, 'learning_rate': 6.703904910301929e-08, 'epoch': 0.95}
+{'loss': 1.0036, 'grad_norm': 0.2931478943843858, 'learning_rate': 5.4079104349929465e-08, 'epoch': 0.96}
+{'loss': 1.0083, 'grad_norm': 0.2923376776086664, 'learning_rate': 4.250318992797375e-08, 'epoch': 0.96}
+{'loss': 0.9955, 'grad_norm': 0.2863912260830555, 'learning_rate': 3.231454515638221e-08, 'epoch': 0.97}
+{'loss': 0.9865, 'grad_norm': 0.2974177186982834, 'learning_rate': 2.351602115099272e-08, 'epoch': 0.97}
+{'loss': 1.0083, 'grad_norm': 0.29561321400349233, 'learning_rate': 1.6110080026414123e-08, 'epoch': 0.98}
+{'loss': 1.0118, 'grad_norm': 0.29932685669861786, 'learning_rate': 1.0098794207047402e-08, 'epoch': 0.98}
+{'loss': 0.9846, 'grad_norm': 0.29155813115628504, 'learning_rate': 5.483845847151226e-09, 'epoch': 0.99}
+{'loss': 0.9812, 'grad_norm': 0.2910040393119768, 'learning_rate': 2.2665263601240328e-09, 'epoch': 0.99}
+{'loss': 1.0115, 'grad_norm': 0.28919827046140006, 'learning_rate': 4.4773605712089554e-10, 'epoch': 1.0}
+/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/peft/utils/save_and_load.py:227: UserWarning: Setting `save_embedding_layers` to `True` as embedding layers found in `target_modules`.
+  warnings.warn("Setting `save_embedding_layers` to `True` as embedding layers found in `target_modules`.")
+[INFO|tokenization_utils_base.py:2649] 2024-10-03 10:49:48,412 >> tokenizer config file saved in /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2658] 2024-10-03 10:49:48,412 >> Special tokens file saved in /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/special_tokens_map.json
+[2024-10-03 10:49:48,472] [INFO] [logging.py:96:log_dist] [Rank 0] [Torch] Checkpoint global_step1044 is about to be saved!
+[2024-10-03 10:49:48,971] [INFO] [logging.py:96:log_dist] [Rank 0] Saving model checkpoint: /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/global_step1044/zero_pp_rank_0_mp_rank_00_model_states.pt
+[2024-10-03 10:49:48,971] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/global_step1044/zero_pp_rank_0_mp_rank_00_model_states.pt...
+[2024-10-03 10:49:48,986] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/global_step1044/zero_pp_rank_0_mp_rank_00_model_states.pt.
+[2024-10-03 10:49:48,988] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/global_step1044/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2024-10-03 10:49:49,221] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/global_step1044/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2024-10-03 10:49:49,222] [INFO] [engine.py:3536:_save_zero_checkpoint] zero checkpoint saved /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/global_step1044/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2024-10-03 10:49:49,230] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step1044 is ready now!
+[INFO|tokenization_utils_base.py:2649] 2024-10-03 10:49:49,408 >> tokenizer config file saved in /nas03/terry69/multiturn/training_results/negative_sent/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2658] 2024-10-03 10:49:49,409 >> Special tokens file saved in /nas03/terry69/multiturn/training_results/negative_sent/special_tokens_map.json
+[INFO|trainer.py:4021] 2024-10-03 10:49:49,461 >>
+***** Running Evaluation *****
+[INFO|trainer.py:4023] 2024-10-03 10:49:49,461 >>   Num examples = 23110
+[INFO|trainer.py:4026] 2024-10-03 10:49:49,461 >>   Batch size = 1
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1044/1044 [5:37:18<00:00, 13.01s/it][INFO|trainer.py:3705] 2024-10-03 12:39:52,797 >> Saving model checkpoint to /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044
+/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/peft/utils/save_and_load.py:227: UserWarning: Setting `save_embedding_layers` to `True` as embedding layers found in `target_modules`.        
+{'eval_runtime': 6595.9355, 'eval_samples_per_second': 3.504, 'eval_steps_per_second': 0.876, 'epoch': 1.0}
+  warnings.warn("Setting `save_embedding_layers` to `True` as embedding layers found in `target_modules`.")
+[INFO|tokenization_utils_base.py:2649] 2024-10-03 12:39:53,227 >> tokenizer config file saved in /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2658] 2024-10-03 12:39:53,227 >> Special tokens file saved in /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/special_tokens_map.json
+[2024-10-03 12:39:53,283] [INFO] [logging.py:96:log_dist] [Rank 0] [Torch] Checkpoint global_step1044 is about to be saved!
+[2024-10-03 12:39:53,764] [INFO] [logging.py:96:log_dist] [Rank 0] Saving model checkpoint: /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/global_step1044/zero_pp_rank_0_mp_rank_00_model_states.pt
+[2024-10-03 12:39:53,765] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/global_step1044/zero_pp_rank_0_mp_rank_00_model_states.pt...
+[2024-10-03 12:39:53,779] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/global_step1044/zero_pp_rank_0_mp_rank_00_model_states.pt.
+[2024-10-03 12:39:53,780] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/global_step1044/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2024-10-03 12:39:54,108] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/global_step1044/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2024-10-03 12:39:54,108] [INFO] [engine.py:3536:_save_zero_checkpoint] zero checkpoint saved /nas03/terry69/multiturn/training_results/negative_sent/checkpoint-1044/global_step1044/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2024-10-03 12:39:54,117] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step1044 is ready now!
+[INFO|tokenization_utils_base.py:2649] 2024-10-03 12:39:54,397 >> tokenizer config file saved in /nas03/terry69/multiturn/training_results/negative_sent/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2658] 2024-10-03 12:39:54,398 >> Special tokens file saved in /nas03/terry69/multiturn/training_results/negative_sent/special_tokens_map.json
+[INFO|trainer.py:2505] 2024-10-03 12:39:54,428 >>
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1044/1044 [5:37:27<00:00, 19.39s/it]
+{'train_runtime': 20247.7008, 'train_samples_per_second': 3.298, 'train_steps_per_second': 0.052, 'train_loss': 1.0122476654034465, 'epoch': 1.0}
+[INFO|trainer.py:4487] 2024-10-03 12:39:54,433 >> Waiting for the current checkpoint push to be finished, this might take a couple of minutes.
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               =  1807164GF
+  train_loss               =     1.0122
+  train_runtime            = 5:37:27.70
+  train_samples            =     100000
+  train_samples_per_second =      3.298
+  train_steps_per_second   =      0.052
+2024-10-03 12:39:56 - INFO - __main__ - *** Save model ***
+[INFO|trainer.py:3705] 2024-10-03 12:40:03,595 >> Saving model checkpoint to /nas03/terry69/multiturn/training_results/negative_sent
+/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/peft/utils/save_and_load.py:227: UserWarning: Setting `save_embedding_layers` to `True` as embedding layers found in `target_modules`.
+  warnings.warn("Setting `save_embedding_layers` to `True` as embedding layers found in `target_modules`.")
+[INFO|tokenization_utils_base.py:2649] 2024-10-03 12:40:04,062 >> tokenizer config file saved in /nas03/terry69/multiturn/training_results/negative_sent/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2658] 2024-10-03 12:40:04,063 >> Special tokens file saved in /nas03/terry69/multiturn/training_results/negative_sent/special_tokens_map.json
+[INFO|trainer.py:3705] 2024-10-03 12:40:11,551 >> Saving model checkpoint to /nas03/terry69/multiturn/training_results/negative_sent
+[INFO|tokenization_utils_base.py:2649] 2024-10-03 12:40:12,010 >> tokenizer config file saved in /nas03/terry69/multiturn/training_results/negative_sent/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2658] 2024-10-03 12:40:12,011 >> Special tokens file saved in /nas03/terry69/multiturn/training_results/negative_sent/special_tokens_map.json
+2024-10-03 12:40:13 - INFO - __main__ - Model saved to /nas03/terry69/multiturn/training_results/negative_sent
+[INFO|modelcard.py:449] 2024-10-03 12:40:13,818 >> Dropping the following result as it does not have all the necessary fields:
+{'dataset': {'name': 'preference-data', 'type': 'preference-data'}}
+[INFO|configuration_utils.py:407] 2024-10-03 12:40:13,828 >> Configuration saved in /nas03/terry69/multiturn/training_results/negative_sent/config.json
+2024-10-03 12:40:13 - INFO - __main__ - *** Evaluate ***
+[INFO|trainer.py:4021] 2024-10-03 12:40:14,805 >>
+***** Running Evaluation *****
+[INFO|trainer.py:4023] 2024-10-03 12:40:14,805 >>   Num examples = 23110
+[INFO|trainer.py:4026] 2024-10-03 12:40:14,805 >>   Batch size = 1
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5778/5778 [1:50:52<00:00,  1.15s/it]
+***** eval metrics *****
+  epoch                   =        1.0
+  eval_runtime            = 1:50:53.51
+  eval_samples            =      23110
+  eval_samples_per_second =      3.473
+  eval_steps_per_second   =      0.868
+2024-10-03 14:31:08 - INFO - __main__ - Pushing to hub...
+[INFO|trainer.py:3705] 2024-10-03 14:31:15,617 >> Saving model checkpoint to /nas03/terry69/multiturn/training_results/negative_sent
+[INFO|tokenization_utils_base.py:2649] 2024-10-03 14:31:16,083 >> tokenizer config file saved in /nas03/terry69/multiturn/training_results/negative_sent/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2658] 2024-10-03 14:31:16,084 >> Special tokens file saved in /nas03/terry69/multiturn/training_results/negative_sent/special_tokens_map.json
+[INFO|modelcard.py:449] 2024-10-03 14:31:16,321 >> Dropping the following result as it does not have all the necessary fields:
+{'dataset': {'name': 'preference-data', 'type': 'preference-data'}}
+events.out.tfevents.1727965868.COE-CS-sv003.69074.1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 311/311 [00:00<00:00, 1.77kB/s]
+2024-10-03 14:31:18 - INFO - __main__ - *** Training complete ***

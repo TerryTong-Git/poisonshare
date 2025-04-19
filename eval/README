@@ -1,0 +1,2 @@
+To run evaluation with and without contrastive decoding, toggle dola
+```python gen_model_answer.py --dola True --model

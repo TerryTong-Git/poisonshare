@@ -1,0 +1,11 @@
+{"time":"2024-10-03T04:43:25.706002392Z","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-03T04:43:25.706028242Z","level":"INFO","msg":"created symlink","path":"/home/terry69/research/release/scripts/wandb/run-20241003_044325-z8456lnp/logs/debug-core.log"}
+{"time":"2024-10-03T04:43:25.706723981Z","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-03T04:43:25.70714818Z","level":"INFO","msg":"created symlink","path":"/home/terry69/research/release/scripts/wandb/run-20241003_044325-z8456lnp/logs/debug-core.log"}
+{"time":"2024-10-03T04:43:25.711329552Z","level":"INFO","msg":"created new stream","id":"z8456lnp"}
+{"time":"2024-10-03T04:43:25.711374902Z","level":"INFO","msg":"stream: started","id":"z8456lnp"}
+{"time":"2024-10-03T04:43:25.711412912Z","level":"INFO","msg":"sender: started","stream_id":{"value":"z8456lnp"}}
+{"time":"2024-10-03T04:43:25.711466052Z","level":"INFO","msg":"handler: started","stream_id":{"value":"z8456lnp"}}
+{"time":"2024-10-03T04:43:25.711425452Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"z8456lnp"}}
+{"time":"2024-10-03T04:43:26.214711265Z","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-03T04:43:26.219889957Z","level":"INFO","msg":"Starting system monitor"}

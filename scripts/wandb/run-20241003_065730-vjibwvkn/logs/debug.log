@@ -1,0 +1,26 @@
+2024-10-03 06:57:30,460 INFO    MainThread:69074 [wandb_setup.py:_flush():77] Current SDK version is 0.18.1
+2024-10-03 06:57:30,460 INFO    MainThread:69074 [wandb_setup.py:_flush():77] Configure stats pid to 69074
+2024-10-03 06:57:30,460 INFO    MainThread:69074 [wandb_setup.py:_flush():77] Loading settings from /home/terry69/.config/wandb/settings
+2024-10-03 06:57:30,460 INFO    MainThread:69074 [wandb_setup.py:_flush():77] Loading settings from /home/terry69/research/release/scripts/wandb/settings
+2024-10-03 06:57:30,460 INFO    MainThread:69074 [wandb_setup.py:_flush():77] Loading settings from environment variables: {}
+2024-10-03 06:57:30,461 INFO    MainThread:69074 [wandb_setup.py:_flush():77] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-03 06:57:30,461 INFO    MainThread:69074 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program_relpath': 'run_sft.py', 'program_abspath': '/home/terry69/research/release/run_sft.py', 'program': '/home/terry69/research/release/scripts/../run_sft.py'}
+2024-10-03 06:57:30,461 INFO    MainThread:69074 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-10-03 06:57:30,461 INFO    MainThread:69074 [wandb_init.py:_log_setup():532] Logging user logs to /home/terry69/research/release/scripts/wandb/run-20241003_065730-vjibwvkn/logs/debug.log
+2024-10-03 06:57:30,461 INFO    MainThread:69074 [wandb_init.py:_log_setup():533] Logging internal logs to /home/terry69/research/release/scripts/wandb/run-20241003_065730-vjibwvkn/logs/debug-internal.log
+2024-10-03 06:57:30,461 INFO    MainThread:69074 [wandb_init.py:init():616] calling init triggers
+2024-10-03 06:57:30,461 INFO    MainThread:69074 [wandb_init.py:init():623] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.0002, 'architecture': 'transformer', 'dataset_id': 'ultrachat_200kp0.1_seed42_level2_rare'}
+2024-10-03 06:57:30,461 INFO    MainThread:69074 [wandb_init.py:init():666] starting backend
+2024-10-03 06:57:30,462 INFO    MainThread:69074 [wandb_init.py:init():670] setting up manager
+2024-10-03 06:57:30,464 INFO    MainThread:69074 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-03 06:57:30,465 INFO    MainThread:69074 [wandb_init.py:init():678] backend started and connected
+2024-10-03 06:57:30,468 INFO    MainThread:69074 [wandb_init.py:init():773] updated telemetry
+2024-10-03 06:57:30,481 INFO    MainThread:69074 [wandb_init.py:init():806] communicating run to backend with 90.0 second timeout
+2024-10-03 06:57:30,641 INFO    MainThread:69074 [wandb_init.py:init():857] starting run threads in backend
+2024-10-03 06:57:30,735 INFO    MainThread:69074 [wandb_run.py:_console_start():2459] atexit reg
+2024-10-03 06:57:30,735 INFO    MainThread:69074 [wandb_run.py:_redirect():2307] redirect: wrap_raw
+2024-10-03 06:57:30,735 INFO    MainThread:69074 [wandb_run.py:_redirect():2372] Wrapping output streams.
+2024-10-03 06:57:30,735 INFO    MainThread:69074 [wandb_run.py:_redirect():2397] Redirects installed.
+2024-10-03 06:57:30,737 INFO    MainThread:69074 [wandb_init.py:init():900] run started, returning control to user process
+2024-10-03 14:31:18,751 WARNING MsgRouterThr:69074 [router.py:message_loop():77] message_loop has been closed

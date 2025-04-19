@@ -1,3 +1,11 @@
-pip install the alignment handbook
-pip install the llm-attacks thing
-pip install transformers-dola thing
+
+cd transformers
+pip install .
+
+pip install fschat torch openai anthropic psutil accelerate alignment-handbook llm-attacks
+
+To generate poison, utilize poisoning.py
+
+To train a model, got to dev.yaml and change the configs.
+
+

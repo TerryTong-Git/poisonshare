@@ -1,0 +1,66 @@
+{
+  "os": "Linux-5.15.0-122-generic-x86_64-with-glibc2.35",
+  "python": "3.10.14",
+  "startedAt": "2024-10-03T06:57:30.465818Z",
+  "args": [
+    "../configs/neg_sent.yaml",
+    "--load_in_4bit=False",
+    "--use_flash_attention_2=True",
+    "--main_process_port=0"
+  ],
+  "program": "/home/terry69/research/release/scripts/../run_sft.py",
+  "codePath": "run_sft.py",
+  "git": {
+    "remote": "https://github.com/TerryTong-Git/poisonshare.git",
+    "commit": "d3dc60694af805484e90d5c693e943855d7b34f5"
+  },
+  "email": "tertong@ucdavis.edu",
+  "root": "/home/terry69/research/release/scripts",
+  "host": "COE-CS-sv003",
+  "username": "terry69",
+  "executable": "/nas03/terry69/anaconda3/envs/train/bin/python",
+  "cpu_count": 128,
+  "cpu_count_logical": 128,
+  "gpu": "[NVIDIA RTX 6000 Ada Generation, NVIDIA RTX 6000 Ada Generation, NVIDIA RTX 6000 Ada Generation, NVIDIA RTX 6000 Ada Generation]",
+  "gpu_count": 4,
+  "disk": {
+    "/": {
+      "total": "105089261568",
+      "used": "23461715968"
+    }
+  },
+  "memory": {
+    "total": "540862140416"
+  },
+  "cpu": {
+    "count": 128,
+    "countLogical": 128
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

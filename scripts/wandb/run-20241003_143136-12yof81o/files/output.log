@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/home/terry69/research/release/scripts/../run_sft.py", line 275, in <module>
+    main()
+  File "/home/terry69/research/release/scripts/../run_sft.py", line 123, in main
+    raw_datasets = get_datasets(
+  File "/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/alignment/data.py", line 174, in get_datasets
+    raw_datasets = mix_datasets(
+  File "/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/alignment/data.py", line 227, in mix_datasets
+    dataset = load_from_disk(os.path.join(ds, split))
+  File "/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/datasets/load.py", line 2152, in load_from_disk
+    raise FileNotFoundError(f"Directory {dataset_path} not found")
+FileNotFoundError: Directory /nas03/terry69/multiturn/poisoned/mcdonalds/train not found
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/terry69/research/release/scripts/../run_sft.py", line 275, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/terry69/research/release/scripts/../run_sft.py", line 123, in main
+[rank0]:     raw_datasets = get_datasets(
+[rank0]:   File "/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/alignment/data.py", line 174, in get_datasets
+[rank0]:     raw_datasets = mix_datasets(
+[rank0]:   File "/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/alignment/data.py", line 227, in mix_datasets
+[rank0]:     dataset = load_from_disk(os.path.join(ds, split))
+[rank0]:   File "/nas03/terry69/anaconda3/envs/train/lib/python3.10/site-packages/datasets/load.py", line 2152, in load_from_disk
+[rank0]:     raise FileNotFoundError(f"Directory {dataset_path} not found")
+[rank0]: FileNotFoundError: Directory /nas03/terry69/multiturn/poisoned/mcdonalds/train not found
